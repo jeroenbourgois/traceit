@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'traceit' target in the 'traceit' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

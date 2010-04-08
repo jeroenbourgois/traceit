@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D04DC49C1107B4AB0007B360 /* menubar.png in Resources */ = {isa = PBXBuildFile; fileRef = D04DC49B1107B4AB0007B360 /* menubar.png */; };
+		D04DC4B01107B5EF0007B360 /* traceit.icns in Resources */ = {isa = PBXBuildFile; fileRef = D04DC4AF1107B5EF0007B360 /* traceit.icns */; };
+		D08E516610F0CED300F4B9FB /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08E516410F0CED300F4B9FB /* Preferences.xib */; };
+		D08E516E10F0CF0E00F4B9FB /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08E516B10F0CF0E00F4B9FB /* AboutController.m */; };
+		D08E516F10F0CF0E00F4B9FB /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08E516D10F0CF0E00F4B9FB /* PreferenceController.m */; };
+		D0A8BFBA1112C04D00803E20 /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB71112C04D00803E20 /* clear.png */; };
+		D0A8BFBB1112C04D00803E20 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB81112C04D00803E20 /* pause.png */; };
+		D0A8BFBC1112C04D00803E20 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB91112C04D00803E20 /* play.png */; };
+		D0A8BFD21112C8F200803E20 /* UserDefaultsColorSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8BFD11112C8F200803E20 /* UserDefaultsColorSupport.m */; };
+		D0DAE551110F9EDF0065B7BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DAE550110F9EDF0065B7BE /* QuartzCore.framework */; };
+		D0E6886310F0CC6500C6F6FF /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6885E10F0CC6500C6F6FF /* AppController.m */; };
+		D0E6886410F0CC6500C6F6FF /* LogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6886010F0CC6500C6F6FF /* LogItem.m */; };
+		D0E6886510F0CC6500C6F6FF /* TraceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6886210F0CC6500C6F6FF /* TraceController.m */; };
+		D0E6888010F0CD2C00C6F6FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6887F10F0CD2C00C6F6FF /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* traceit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traceit_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* traceit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = traceit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04DC49B1107B4AB0007B360 /* menubar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menubar.png; path = ../resources/menubar.png; sourceTree = SOURCE_ROOT; };
+		D04DC4AF1107B5EF0007B360 /* traceit.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = traceit.icns; path = ../resources/traceit.icns; sourceTree = SOURCE_ROOT; };
+		D08E516510F0CED300F4B9FB /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
+		D08E516A10F0CF0E00F4B9FB /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutController.h; path = ../src/AboutController.h; sourceTree = SOURCE_ROOT; };
+		D08E516B10F0CF0E00F4B9FB /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutController.m; path = ../src/AboutController.m; sourceTree = SOURCE_ROOT; };
+		D08E516C10F0CF0E00F4B9FB /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferenceController.h; path = ../src/PreferenceController.h; sourceTree = SOURCE_ROOT; };
+		D08E516D10F0CF0E00F4B9FB /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferenceController.m; path = ../src/PreferenceController.m; sourceTree = SOURCE_ROOT; };
+		D0A8BFB71112C04D00803E20 /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clear.png; path = ../resources/clear.png; sourceTree = SOURCE_ROOT; };
+		D0A8BFB81112C04D00803E20 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../resources/pause.png; sourceTree = SOURCE_ROOT; };
+		D0A8BFB91112C04D00803E20 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../resources/play.png; sourceTree = SOURCE_ROOT; };
+		D0A8BFD01112C8F200803E20 /* UserDefaultsColorSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsColorSupport.h; sourceTree = "<group>"; };
+		D0A8BFD11112C8F200803E20 /* UserDefaultsColorSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsColorSupport.m; sourceTree = "<group>"; };
+		D0DAE550110F9EDF0065B7BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D0E6885D10F0CC6500C6F6FF /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ../src/AppController.h; sourceTree = SOURCE_ROOT; };
+		D0E6885E10F0CC6500C6F6FF /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = ../src/AppController.m; sourceTree = SOURCE_ROOT; };
+		D0E6885F10F0CC6500C6F6FF /* LogItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogItem.h; path = ../src/LogItem.h; sourceTree = SOURCE_ROOT; };
+		D0E6886010F0CC6500C6F6FF /* LogItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogItem.m; path = ../src/LogItem.m; sourceTree = SOURCE_ROOT; };
+		D0E6886110F0CC6500C6F6FF /* TraceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TraceController.h; path = ../src/TraceController.h; sourceTree = SOURCE_ROOT; };
+		D0E6886210F0CC6500C6F6FF /* TraceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TraceController.m; path = ../src/TraceController.m; sourceTree = SOURCE_ROOT; };
+		D0E6887F10F0CD2C00C6F6FF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../src/main.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D0DAE551110F9EDF0065B7BE /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0A8BFCF1112C8D800803E20 /* utils */,
+				D08E516910F0CEFA00F4B9FB /* ui */,
+				D0E6887F10F0CD2C00C6F6FF /* main.m */,
+				D0E6885D10F0CC6500C6F6FF /* AppController.h */,
+				D0E6885E10F0CC6500C6F6FF /* AppController.m */,
+				D0E6885F10F0CC6500C6F6FF /* LogItem.h */,
+				D0E6886010F0CC6500C6F6FF /* LogItem.m */,
+				D0E6886110F0CC6500C6F6FF /* TraceController.h */,
+				D0E6886210F0CC6500C6F6FF /* TraceController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0DAE550110F9EDF0065B7BE /* QuartzCore.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* traceit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* traceit */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = traceit;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* traceit_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D04DC4961107B46D0007B360 /* images */,
+				D08E516410F0CED300F4B9FB /* Preferences.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D04DC4961107B46D0007B360 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D0A8BFB71112C04D00803E20 /* clear.png */,
+				D0A8BFB81112C04D00803E20 /* pause.png */,
+				D0A8BFB91112C04D00803E20 /* play.png */,
+				D04DC4AF1107B5EF0007B360 /* traceit.icns */,
+				D04DC49B1107B4AB0007B360 /* menubar.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		D08E516910F0CEFA00F4B9FB /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				D08E516A10F0CF0E00F4B9FB /* AboutController.h */,
+				D08E516B10F0CF0E00F4B9FB /* AboutController.m */,
+				D08E516C10F0CF0E00F4B9FB /* PreferenceController.h */,
+				D08E516D10F0CF0E00F4B9FB /* PreferenceController.m */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		D0A8BFCF1112C8D800803E20 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				D0A8BFD01112C8F200803E20 /* UserDefaultsColorSupport.h */,
+				D0A8BFD11112C8F200803E20 /* UserDefaultsColorSupport.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* traceit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "traceit" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = traceit;
+			productInstallPath = "$(HOME)/Applications";
+			productName = traceit;
+			productReference = 8D1107320486CEB800E47090 /* traceit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "traceit" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* traceit */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* traceit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				D08E516610F0CED300F4B9FB /* Preferences.xib in Resources */,
+				D04DC49C1107B4AB0007B360 /* menubar.png in Resources */,
+				D04DC4B01107B5EF0007B360 /* traceit.icns in Resources */,
+				D0A8BFBA1112C04D00803E20 /* clear.png in Resources */,
+				D0A8BFBB1112C04D00803E20 /* pause.png in Resources */,
+				D0A8BFBC1112C04D00803E20 /* play.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E6886310F0CC6500C6F6FF /* AppController.m in Sources */,
+				D0E6886410F0CC6500C6F6FF /* LogItem.m in Sources */,
+				D0E6886510F0CC6500C6F6FF /* TraceController.m in Sources */,
+				D0E6888010F0CD2C00C6F6FF /* main.m in Sources */,
+				D08E516E10F0CF0E00F4B9FB /* AboutController.m in Sources */,
+				D08E516F10F0CF0E00F4B9FB /* PreferenceController.m in Sources */,
+				D0A8BFD21112C8F200803E20 /* UserDefaultsColorSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D08E516410F0CED300F4B9FB /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08E516510F0CED300F4B9FB /* English */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = traceit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = traceit;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = traceit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = traceit;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				SYMROOT = ../bin/;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				SYMROOT = ../bin/;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "traceit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "traceit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

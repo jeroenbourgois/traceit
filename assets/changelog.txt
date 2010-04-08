@@ -1,0 +1,43 @@
+---------------------------------------------
+| CHANGELOG TRACE IT						|
+---------------------------------------------
+
+0.9 (start of the versioning, close to the first 1.0 release)
+-------------------------------------------------------------
+# added two new menuitems: "clear" and "start trace"
+# binded the "clear" item to a shortcut (command - k)
+# binded shortcut for the "start/pause" trace item (command - p)
+# made the toolbar customizable (so you can now choose for small icons, icons & text, ...)
+	
+	---------------------------------------------
+	BUGS										
+	---------------------------------------------
+	# preferences are not read and applied properly (auto start trace)
+	# the different color/keys are not yet binded (error, info, ...) to the output view
+
+
+0.91
+-------------------------------------------------------------
+# added binding between the text labels and the user prefs (so they are saved)
+# added binding for the color wells too
+# made those two work in the actual tracing too!
+# improved the behaviour of the "keep me on top" in the preferences, so it is in sync with the menu item + behaves as it should
+
+
+1.0
+-------------------------------------------------------------
+# split the pause/resume button into two toolbar buttons and two menu items (under edit > )
+# remapped the keyboard shortcuts (pause: cmd-p and resume: cmd-r)
+# updated toolbar icons 
+
+---------------------------------------------
+GENERAL BUGS
+---------------------------------------------
+# preference panel gets loaded twice (or the debug traces in the initFromNib at least) (ticket #11)
+
+
+---------------------------------------------
+| TODO										|
+---------------------------------------------
+
+# improve the preference panel to have multiple tabs, and an animation when switching between them (see toolbarSelectableItemIdentifiers)
