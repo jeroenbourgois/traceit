@@ -157,30 +157,46 @@
 	NSData *textColor;
 	
 	// this now is bound to a fixed number of line options (3), not very flexible ...
-	if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText1]].length != 0)
-	   textColor = [defaults objectForKey:JBPrefsLabelColor1];
-	else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText2]].length != 0)
-	   textColor = [defaults objectForKey:JBPrefsLabelColor2];
-	else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText3]].length != 0)
+	if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText1]].length != 0){
+		textColor = [defaults objectForKey:JBPrefsLabelColor1];
+		NSLog(@"Label text 1: %@", [[NSString alloc] initWithString: [defaults stringForKey:JBPrefsLabelText1]]);
+	}else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText2]].length != 0){
+		textColor = [defaults objectForKey:JBPrefsLabelColor2];
+		NSLog(@"Label text 2: %@", [[NSString alloc] initWithString: [defaults stringForKey:JBPrefsLabelText2]]);
+	}else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText3]].length != 0){
 		textColor = [defaults objectForKey:JBPrefsLabelColor3];
-	else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText4]].length != 0)
-	   textColor = [defaults objectForKey:JBPrefsLabelColor4];
-	else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText5]].length != 0)
+		NSLog(@"Label text 3: %@", [[NSString alloc] initWithString: [defaults stringForKey:JBPrefsLabelText3]]);
+	}else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText4]].length != 0){
+		textColor = [defaults objectForKey:JBPrefsLabelColor4];
+		NSLog(@"Label text 4: %@", [[NSString alloc] initWithString: [defaults stringForKey:JBPrefsLabelText4]]);
+	}else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText5]].length != 0){
 		textColor = [defaults objectForKey:JBPrefsLabelColor5];
-	else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText6]].length != 0)
+		NSLog(@"Label text 5: %@", [[NSString alloc] initWithString: [defaults stringForKey:JBPrefsLabelText5]]);
+	}else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText6]].length != 0){
 		textColor = [defaults objectForKey:JBPrefsLabelColor6];
-	else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText7]].length != 0)
+		NSLog(@"Label text 6: %@", [[NSString alloc] initWithString: [defaults stringForKey:JBPrefsLabelText6]]);
+	}else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText7]].length != 0){
 		textColor = [defaults objectForKey:JBPrefsLabelColor7];
-	else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText8]].length != 0)
+		NSLog(@"Label text 7: %@", [[NSString alloc] initWithString: [defaults stringForKey:JBPrefsLabelText7]]);
+	}else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText8]].length != 0){
 		textColor = [defaults objectForKey:JBPrefsLabelColor8];
-	else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText9]].length != 0)
+		NSLog(@"Label text 8: %@", [[NSString alloc] initWithString: [defaults stringForKey:JBPrefsLabelText8]]);
+	}else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText9]].length != 0){
 		textColor = [defaults objectForKey:JBPrefsLabelColor9];
-	else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText10]].length != 0)
+		NSLog(@"Label text 9: %@", [[NSString alloc] initWithString: [defaults stringForKey:JBPrefsLabelText9]]);
+	}else if([line rangeOfString:[defaults stringForKey:JBPrefsLabelText10]].length != 0){
 		textColor = [defaults objectForKey:JBPrefsLabelColor10];
-	else
+		NSLog(@"Label text 10: %@", [[NSString alloc] initWithString: [defaults stringForKey:JBPrefsLabelText10]]);
+	}else{
 	   textColor = [defaults objectForKey:JBPrefsTextColor];
-   
-	return [NSKeyedUnarchiver unarchiveObjectWithData:textColor];
+	}
+	
+	NSColor *color = [NSKeyedUnarchiver unarchiveObjectWithData:textColor];
+
+	NSLog(@"%@", color);
+
+	
+	return color;
 }
 
 - (void) updateStatus

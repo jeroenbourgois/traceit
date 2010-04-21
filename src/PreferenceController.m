@@ -102,27 +102,27 @@ NSString * const JBPrefsLabelText10 = @"labelText10";
 	[cwLabel1 setColor:[self labelColor:LABEL1]];
 	[cwLabel2 setColor:[self labelColor:LABEL2]];
 	[cwLabel3 setColor:[self labelColor:LABEL3]];
-	[cwLabel1 setColor:[self labelColor:LABEL4]];
-	[cwLabel2 setColor:[self labelColor:LABEL5]];
-	[cwLabel3 setColor:[self labelColor:LABEL6]];
-	[cwLabel1 setColor:[self labelColor:LABEL7]];
-	[cwLabel2 setColor:[self labelColor:LABEL8]];
-	[cwLabel3 setColor:[self labelColor:LABEL9]];
-	[cwLabel3 setColor:[self labelColor:LABEL10]];	
+	[cwLabel4 setColor:[self labelColor:LABEL4]];
+	[cwLabel5 setColor:[self labelColor:LABEL5]];
+	[cwLabel6 setColor:[self labelColor:LABEL6]];
+	[cwLabel7 setColor:[self labelColor:LABEL7]];
+	[cwLabel8 setColor:[self labelColor:LABEL8]];
+	[cwLabel9 setColor:[self labelColor:LABEL9]];
+	[cwLabel10 setColor:[self labelColor:LABEL10]];	
 
 	[txtLabel1 setStringValue:[self labelText:LABEL1]];
 	[txtLabel2 setStringValue:[self labelText:LABEL2]];
 	[txtLabel3 setStringValue:[self labelText:LABEL3]];
-	[txtLabel3 setStringValue:[self labelText:LABEL4]];
-	[txtLabel3 setStringValue:[self labelText:LABEL5]];
-	[txtLabel3 setStringValue:[self labelText:LABEL6]];
-	[txtLabel3 setStringValue:[self labelText:LABEL7]];
-	[txtLabel3 setStringValue:[self labelText:LABEL8]];
-	[txtLabel3 setStringValue:[self labelText:LABEL9]];
-	[txtLabel3 setStringValue:[self labelText:LABEL10]];
+	[txtLabel4 setStringValue:[self labelText:LABEL4]];
+	[txtLabel5 setStringValue:[self labelText:LABEL5]];
+	[txtLabel6 setStringValue:[self labelText:LABEL6]];
+	[txtLabel7 setStringValue:[self labelText:LABEL7]];
+	[txtLabel8 setStringValue:[self labelText:LABEL8]];
+	[txtLabel9 setStringValue:[self labelText:LABEL9]];
+	[txtLabel10 setStringValue:[self labelText:LABEL10]];
 	
 	// show the opacity slider in the color panel
-	[[NSColorPanel  sharedColorPanel] setShowsAlpha:YES];
+	[[NSColorPanel sharedColorPanel] setShowsAlpha:YES];
 }
 
 - (void) windowWillClose:(NSNotification *) aNotification
@@ -149,6 +149,7 @@ NSString * const JBPrefsLabelText10 = @"labelText10";
 {
 	NSData *colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[backgroundColorWell color]];
 	[[NSUserDefaults standardUserDefaults] setObject:colorAsData forKey:JBPrefsBackgroundColor];
+	[[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (NSColor *) backgroundColor
@@ -162,6 +163,7 @@ NSString * const JBPrefsLabelText10 = @"labelText10";
 {
 	NSData *colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[textColorWell color]];
 	[[NSUserDefaults standardUserDefaults] setObject:colorAsData forKey:JBPrefsTextColor];
+	[[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (NSColor *) textColor
@@ -228,7 +230,7 @@ NSString * const JBPrefsLabelText10 = @"labelText10";
 		colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[cwLabel2 color]];
 		key = [[NSString alloc] initWithString: JBPrefsLabelColor2];		
 	}
-	else if(sender = cwLabel3)
+	else if(sender == cwLabel3)
 	{
 		colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[cwLabel3 color]];
 		key = [[NSString alloc] initWithString: JBPrefsLabelColor3];	
@@ -238,7 +240,7 @@ NSString * const JBPrefsLabelText10 = @"labelText10";
 		colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[cwLabel4 color]];
 		key = [[NSString alloc] initWithString: JBPrefsLabelColor4];
 	}
-	else if(sender = cwLabel5)
+	else if(sender == cwLabel5)
 	{
 		colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[cwLabel5 color]];
 		key = [[NSString alloc] initWithString: JBPrefsLabelColor5];
@@ -248,7 +250,7 @@ NSString * const JBPrefsLabelText10 = @"labelText10";
 		colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[cwLabel6 color]];
 		key = [[NSString alloc] initWithString: JBPrefsLabelColor6];
 	}
-	else if(sender = cwLabel7)
+	else if(sender == cwLabel7)
 	{
 		colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[cwLabel7 color]];
 		key = [[NSString alloc] initWithString: JBPrefsLabelColor7];	
@@ -258,16 +260,18 @@ NSString * const JBPrefsLabelText10 = @"labelText10";
 		colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[cwLabel8 color]];
 		key = [[NSString alloc] initWithString: JBPrefsLabelColor8];		
 	}
-	else if(sender = cwLabel9)
+	else if(sender == cwLabel9)
 	{
 		colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[cwLabel9 color]];
 		key = [[NSString alloc] initWithString: JBPrefsLabelColor9];	
 	}
-	else if(sender = cwLabel10)
+	else if(sender == cwLabel10)
 	{
 		colorAsData = [NSKeyedArchiver archivedDataWithRootObject:[cwLabel10 color]];
 		key = [[NSString alloc] initWithString: JBPrefsLabelColor10];
 	}
+	
+	NSLog(@"key: %@", key);
 	
 	[[NSUserDefaults standardUserDefaults] setObject:colorAsData forKey:key];
 	

@@ -83,7 +83,7 @@ enum LabelType {
 	IBOutlet NSColorWell *cwLabel7;
 	IBOutlet NSColorWell *cwLabel8;
 	IBOutlet NSColorWell *cwLabel9;
-	IBOutlet NSColorWell *cwLabel10;	
+	IBOutlet NSColorWell *cwLabel10;
 }
 
 - (IBAction) browse:(id) sender;

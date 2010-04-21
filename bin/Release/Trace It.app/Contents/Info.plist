@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>traceit</string>
 	<key>CFBundleIdentifier</key>
-	<string>be.jeroenbourgois.Trace_It</string>
+	<string>be.jeroenbourgois.traceit</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

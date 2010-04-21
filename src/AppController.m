@@ -32,16 +32,16 @@
 	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor blackColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsBackgroundColor];
 	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor greenColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsTextColor];
 
-	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor redColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor1];
+	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor grayColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor1];
 	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor redColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor2];
-	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor redColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor3];
-	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor redColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor4];
-	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor redColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor5];
-	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor redColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor6];
-	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor redColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor7];
+	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor orangeColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor3];
+	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor whiteColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor4];
+	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor whiteColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor5];
+	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor purpleColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor6];
+	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor greenColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor7];
 	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor redColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor8];
-	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor redColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor9];
-	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor redColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor10];	
+	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor yellowColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor9];
+	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor yellowColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsLabelColor10];	
 
 	[defaultValues setObject:[[NSString alloc] initWithString:@"INFO"]			forKey:JBPrefsLabelText1];
 	[defaultValues setObject:[[NSString alloc] initWithString:@"ERROR"]			forKey:JBPrefsLabelText2];
