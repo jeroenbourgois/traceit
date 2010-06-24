@@ -3,9 +3,8 @@ set -ex
 
 [ "$ACTION" = build ] || exit 0
 [ "$BUILD_VARIANTS" = "normal" ] || exit 0
-
-dir="$TEMP_FILES_DIR/disk"
-dmg="$BUILT_PRODUCTS_DIR/$PROJECT_NAME.dmg"
+dir="$BUILD_DIR$CONFIGURATION/"
+dmg="$BUILD_DIR$CONFIGURATION/$EFFECTIVE_PLATFORM_NAME.dmg"
 
 rm -rf "$dir"
 mkdir "$dir"
