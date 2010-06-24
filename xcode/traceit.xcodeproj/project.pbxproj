@@ -267,7 +267,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -ex\n\n[ \"$ACTION\" = build ] || exit 0\n[ \"$BUILD_VARIANTS\" = \"normal\" ] || exit 0\ndir=\"$TEMP_FILES_DIR/$CONFIGURATION/\"\ndmg=\"$PRODUCT_NAME.dmg\"\n\nrm -rf \"$dir\"\nmkdir \"$dir\"\ncp -R \"$BUILD_DIR/$CONFIGURATION/$PRODUCT_NAME.app\" \"$dir\"\nrm -f \"$dmg\"\nhdiutil create -srcfolder \"$dir\" -volname \"$PRODUCT_NAME\" \"$dmg\"\nhdiutil internet-enable -yes \"$dmg\"\nrm -rf \"$dir\"";
+			shellScript = "set -ex\n\n[ \"$ACTION\" = build ] || exit 0\n[ \"$BUILD_VARIANTS\" = \"normal\" ] || exit 0\ndir=\"$TEMP_FILES_DIR/$CONFIGURATION/\"\ndmg=\"$PRODUCT_NAME.dmg\"\n\nrm -rf \"$dir\"\nmkdir \"$dir\"\ncp -R \"$BUILD_DIR/$CONFIGURATION/$PRODUCT_NAME.app\" \"$dir\"\nrm -f \"$dmg\"\nhdiutil create -srcfolder \"$BUILD_DIR/$CONFIGURATION/\" -volname \"$PRODUCT_NAME\" \"$dmg\"\nhdiutil internet-enable -yes \"$dmg\"\nrm -rf \"$dir\"";
 		};
 		D023432C11D379A10057CEF8 /* Git Commit */ = {
 			isa = PBXShellScriptBuildPhase;
