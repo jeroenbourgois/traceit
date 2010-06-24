@@ -441,7 +441,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>282</real>
+								<real>279</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -478,7 +478,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {282, 996}}</string>
+							<string>{{0, 0}, {279, 997}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -490,19 +490,19 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {299, 1014}}</string>
+						<string>{{0, 0}, {296, 1015}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>282</real>
+							<real>279</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>4 123 299 1055 0 0 1920 1178 </string>
+						<string>4 122 296 1056 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>299pt</string>
+					<string>296pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -551,7 +551,7 @@
 		<string>/Volumes/data/Users/jeroenb/Dropbox/Development/objectivec:cocoa/traceit/xcode/traceit.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>4 123 299 1055 0 0 1920 1178 </string>
+	<string>4 122 296 1056 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
