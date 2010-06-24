@@ -9,7 +9,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = D06BE16D10E7DFEC0031F6F0 /* traceit */;
 		activeTarget = 8D1107260486CEB800E47090 /* traceit */;
 		addToTargets = (
@@ -98,12 +98,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299052678;
-			PBXWorkspaceStateSaveDate = 299052678;
+			PBXPerProjectTemplateStateSaveDate = 299061001;
+			PBXWorkspaceStateSaveDate = 299061001;
 		};
 		perUserProjectItems = {
-			D04114CF11D3322F00BE8196 /* PBXBookmark */ = D04114CF11D3322F00BE8196 /* PBXBookmark */;
 			D041151F11D33E8A00BE8196 /* PBXTextBookmark */ = D041151F11D33E8A00BE8196 /* PBXTextBookmark */;
+			D0FE0EFF11D34F320082F2A0 /* PBXTextBookmark */ = D0FE0EFF11D34F320082F2A0 /* PBXTextBookmark */;
 		};
 		sourceControlManager = D06BE17B10E7DFF00031F6F0 /* Source Control */;
 		userBuildSettings = {
@@ -168,10 +168,6 @@
 			sepNavVisRange = "{0, 349}";
 			sepNavWindowFrame = "{{229, -263}, {960, 1174}}";
 		};
-	};
-	D04114CF11D3322F00BE8196 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = D04114B611D32E9700BE8196 /* README */;
 	};
 	D041151F11D33E8A00BE8196 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -376,5 +372,15 @@
 			sepNavVisRange = "{0, 257}";
 			sepNavWindowFrame = "{{15, -1}, {960, 1174}}";
 		};
+	};
+	D0FE0EFF11D34F320082F2A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D04114B611D32E9700BE8196 /* README */;
+		name = "README: 11";
+		rLen = 0;
+		rLoc = 349;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
 	};
 }
