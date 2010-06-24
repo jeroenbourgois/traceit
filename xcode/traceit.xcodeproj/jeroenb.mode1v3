@@ -467,18 +467,17 @@
 								<string>1C37FBAC04509CD000000102</string>
 								<string>D023432D11D379A80057CEF8</string>
 								<string>D023432911D379700057CEF8</string>
+								<string>1C08E77C0454961000C914BD</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>49</integer>
-									<integer>45</integer>
-									<integer>44</integer>
+									<integer>52</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 6}, {279, 997}}</string>
+							<string>{{0, 23}, {279, 997}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -641,7 +640,7 @@
 			<key>WindowToolGUID</key>
 			<string>D06BE18B10E7E0130031F6F0</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
