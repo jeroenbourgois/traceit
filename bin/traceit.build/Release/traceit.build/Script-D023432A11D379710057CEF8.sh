@@ -3,7 +3,7 @@ set -ex
 
 [ "$ACTION" = build ] || exit 0
 [ "$BUILD_VARIANTS" = "normal" ] || exit 0
-dir="$BUILD_DIR/$CONFIGURATION/"
+dir="$TEMP_FILES_DIR/$CONFIGURATION/"
 dmg="$PRODUCT_NAME.dmg"
 
 rm -rf "$dir"
