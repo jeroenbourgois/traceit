@@ -315,4 +315,24 @@
 	[self saveAllwaysOnTop:[[NSUserDefaults standardUserDefaults] boolForKey:JBPrefsAlwaysOnTop]];
 }
 
+- (IBAction) deleteSharedObjects:(id) sender
+{
+	NSFileManager *fm;
+	fm = [NSFileManager defaultManager];
+	
+	NSString *homeDir = NSHomeDirectory();
+	NSMutableString *sharedObjectsLocation = [NSMutableString stringWithString:homeDir];
+	[sharedObjectsLocation appendString:@"/Library/Preferences/Macromedia/Flash Player/#SharedObjects/"];
+
+	
+	NSDirectoryEnumerator *de = [fm enumeratorAtPath:homeDir];
+	
+	/*
+	if ([filemgr removeItemAtPath: @"" error: NULL]  == YES)
+        NSLog (@"Remove successful");
+	else
+        NSLog (@"Remove failed");
+	 */
+}
+
 @end

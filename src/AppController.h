@@ -33,6 +33,7 @@
 - (IBAction) resumeTrace:(id) sender;
 - (IBAction) toggleMainWindow:(id) sender;
 - (IBAction) alwaysOnTop:(id) sender;
+- (IBAction) deleteSharedObject:(id) sender;
 
 - (void) startTrace;
 - (void) setStatus:(NSString *) message;
