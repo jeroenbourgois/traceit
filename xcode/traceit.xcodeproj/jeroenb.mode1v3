@@ -467,7 +467,6 @@
 								<string>1C37FBAC04509CD000000102</string>
 								<string>D023432D11D379A80057CEF8</string>
 								<string>D023432911D379700057CEF8</string>
-								<string>1C08E77C0454961000C914BD</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
@@ -477,7 +476,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 24}, {282, 996}}</string>
+							<string>{{0, 7}, {282, 996}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -546,8 +545,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D06BE18B10E7E0130031F6F0</string>
 		<string>/Volumes/data/Users/jeroenb/Dropbox/Development/objectivec:cocoa/traceit/xcode/traceit.xcodeproj</string>
+		<string>D06BE18B10E7E0130031F6F0</string>
 	</array>
 	<key>WindowString</key>
 	<string>5 123 299 1055 0 0 1920 1178 </string>
@@ -640,7 +639,7 @@
 			<key>WindowToolGUID</key>
 			<string>D06BE18B10E7E0130031F6F0</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
