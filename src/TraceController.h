@@ -30,6 +30,9 @@
 - (void) setPaused:(BOOL) value;
 - (BOOL) paused;
 
+- (BOOL) isClearLine:(NSString *) line;
+- (void) clearTextview;
+
 - (void) taskTerminated:(NSNotification *) note;
 
 @end

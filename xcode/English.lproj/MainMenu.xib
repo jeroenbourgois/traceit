@@ -8,8 +8,8 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="371"/>
 			<integer value="205"/>
+			<integer value="504"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -744,7 +744,6 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>08B24856-B337-428A-856B-DE57C2DAD40D</string>
 							<string>2C93CFA8-C22E-462D-8AA3-65125E0E48D5</string>
 							<string>4F27BD0B-F7BD-480D-8DD2-8A082DDA47E9</string>
 							<string>NSToolbarFlexibleSpaceItem</string>
@@ -753,28 +752,6 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="NSToolbarItem" id="118316472">
-								<object class="NSMutableString" key="NSToolbarItemIdentifier">
-									<characters key="NS.bytes">08B24856-B337-428A-856B-DE57C2DAD40D</characters>
-								</object>
-								<string key="NSToolbarItemLabel">Resume</string>
-								<string key="NSToolbarItemPaletteLabel">Resume</string>
-								<string key="NSToolbarItemToolTip"/>
-								<nil key="NSToolbarItemView"/>
-								<object class="NSCustomResource" key="NSToolbarItemImage">
-									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">play</string>
-								</object>
-								<nil key="NSToolbarItemTarget"/>
-								<nil key="NSToolbarItemAction"/>
-								<string key="NSToolbarItemMinSize">{0, 0}</string>
-								<string key="NSToolbarItemMaxSize">{0, 0}</string>
-								<bool key="NSToolbarItemEnabled">YES</bool>
-								<bool key="NSToolbarItemAutovalidates">YES</bool>
-								<int key="NSToolbarItemTag">-1</int>
-								<bool key="NSToolbarIsUserRemovable">YES</bool>
-								<int key="NSToolbarItemVisibilityPriority">0</int>
-							</object>
 							<object class="NSToolbarItem" id="274072181">
 								<object class="NSMutableString" key="NSToolbarItemIdentifier">
 									<characters key="NS.bytes">2C93CFA8-C22E-462D-8AA3-65125E0E48D5</characters>
@@ -907,13 +884,11 @@
 						<reference ref="774256620"/>
 						<reference ref="466073814"/>
 						<reference ref="399921122"/>
-						<reference ref="118316472"/>
 						<reference ref="274072181"/>
 						<reference ref="777846785"/>
 					</object>
 					<object class="NSMutableArray" key="NSToolbarIBDefaultItems">
 						<bool key="EncodedWithXMLCoder">YES</bool>
-						<reference ref="118316472"/>
 						<reference ref="274072181"/>
 						<reference ref="774256620"/>
 						<reference ref="777846785"/>
@@ -1026,6 +1001,7 @@
 									</object>
 									<string key="NSFrameSize">{467, 387}</string>
 									<reference key="NSSuperview" ref="584371974"/>
+									<reference key="NSNextKeyView" ref="548983053"/>
 									<reference key="NSDocView" ref="548983053"/>
 									<object class="NSColor" key="NSBGColor">
 										<int key="NSColorSpace">1</int>
@@ -1060,6 +1036,7 @@
 							</object>
 							<string key="NSFrame">{{-2, 0}, {482, 387}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSNextKeyView" ref="328953052"/>
 							<int key="NSsFlags">16</int>
 							<reference key="NSVScroller" ref="906295247"/>
 							<reference key="NSHScroller" ref="412727828"/>
@@ -1458,22 +1435,6 @@
 						<reference key="destination" ref="274072181"/>
 					</object>
 					<int key="connectionID">525</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">resumeTraceToolbarItem</string>
-						<reference key="source" ref="496840104"/>
-						<reference key="destination" ref="118316472"/>
-					</object>
-					<int key="connectionID">526</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">resumeTrace:</string>
-						<reference key="source" ref="496840104"/>
-						<reference key="destination" ref="118316472"/>
-					</object>
-					<int key="connectionID">527</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -2108,7 +2069,6 @@
 							<reference ref="774256620"/>
 							<reference ref="466073814"/>
 							<reference ref="399921122"/>
-							<reference ref="118316472"/>
 							<reference ref="777846785"/>
 							<reference ref="274072181"/>
 						</object>
@@ -2127,11 +2087,6 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">510</int>
 						<reference key="object" ref="399921122"/>
-						<reference key="parent" ref="135233368"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">512</int>
-						<reference key="object" ref="118316472"/>
 						<reference key="parent" ref="135233368"/>
 					</object>
 					<object class="IBObjectRecord">
@@ -2155,14 +2110,14 @@
 						<reference key="parent" ref="789758025"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">524</int>
-						<reference key="object" ref="274072181"/>
-						<reference key="parent" ref="135233368"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">529</int>
 						<reference key="object" ref="848307449"/>
 						<reference key="parent" ref="789758025"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">524</int>
+						<reference key="object" ref="274072181"/>
+						<reference key="parent" ref="135233368"/>
 					</object>
 				</object>
 			</object>
@@ -2299,7 +2254,6 @@
 					<string>5.ImportedFromIB2</string>
 					<string>504.IBEditorWindowLastContentRect</string>
 					<string>504.IBPluginDependency</string>
-					<string>512.IBPluginDependency</string>
 					<string>513.IBPluginDependency</string>
 					<string>516.IBPluginDependency</string>
 					<string>517.IBPluginDependency</string>
@@ -2349,7 +2303,7 @@
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
-					<string>{{334, 335}, {170, 113}}</string>
+					<string>{{235, 675}, {170, 113}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>{{187, 434}, {243, 243}}</string>
@@ -2365,13 +2319,13 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{244, 448}, {333, 20}}</string>
+					<string>{{145, 788}, {333, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>{74, 862}</string>
 					<string>{{6, 978}, {478, 20}}</string>
-					<string>{{628, 453}, {480, 387}}</string>
-					<string>{{628, 453}, {480, 387}}</string>
+					<string>{{511, 453}, {480, 387}}</string>
+					<string>{{511, 453}, {480, 387}}</string>
 					<reference ref="9"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<boolean value="YES"/>
@@ -2446,8 +2400,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
-					<string>{{621, 861}, {616, 0}}</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>{{443, 671}, {616, 169}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -2487,7 +2440,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">531</int>
+			<int key="maxID">534</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

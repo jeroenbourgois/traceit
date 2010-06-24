@@ -7,8 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "TraceController.h"
+@class TraceController;
 @class PreferenceController;
+@class PolicyFileController;
 
 @interface AppController : NSObject {
 	IBOutlet NSTextView* txtOutput;
@@ -22,6 +23,7 @@
 	IBOutlet NSMenuItem *pauseTraceMenuItem;
 	
 	TraceController* traceController;
+	PolicyFileController* policyFileController;
 	PreferenceController* preferenceController;
 }
 
@@ -36,6 +38,7 @@
 - (void) setStatus:(NSString *) message;
 
 - (void) initTraceController;
+- (void) initPolicyFileController;
 - (void) initUI;
 - (void) initUserDefaults;
 - (void) initMenubarIcon;
@@ -46,5 +49,7 @@
 - (void) preferencesClosed:(NSNotification *) notification;
 - (void) showError:(NSNotification *) notification;
 
+- (void) checkForFirstRun;
+- (void) showFirstRunDialog;
 
 @end

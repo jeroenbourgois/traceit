@@ -8,6 +8,8 @@
 
 #import "AppController.h"
 #import "PreferenceController.h"
+#import "PolicyFileController.h"
+#import "TraceController.h"
 
 @implementation AppController
 
@@ -27,8 +29,12 @@
 	NSString *homeDir = NSHomeDirectory();
 	NSMutableString *traceFileLocation = [NSMutableString stringWithString:homeDir];
 	[traceFileLocation appendString:@"/Library/Preferences/Macromedia/Flash Player/Logs/flashlog.txt"];
+	[defaultValues setObject:[NSString stringWithString:traceFileLocation] forKey:JBPrefsTraceFileLocation];
 	
-	[defaultValues setObject:[NSString stringWithString:traceFileLocation] forKey:JBPrefsTraceFileLocation];	
+	NSMutableString *policyFileLocation = [NSMutableString stringWithString:homeDir];
+	[policyFileLocation appendString:@"/Library/Preferences/Macromedia/Flash Player/Logs/policyfiles.txt"];
+	[defaultValues setObject:[NSString stringWithString:policyFileLocation] forKey:JBPrefsPolicyFileLocation];
+	
 	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor blackColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsBackgroundColor];
 	[defaultValues setObject:[NSKeyedArchiver archivedDataWithRootObject:[[NSColor greenColor] colorUsingColorSpaceName:NSCalibratedRGBColorSpace]] forKey:JBPrefsTextColor];
 
@@ -54,6 +60,8 @@
 	[defaultValues setObject:[[NSString alloc] initWithString:@"INIT"]			forKey:JBPrefsLabelText9];
 	[defaultValues setObject:[[NSString alloc] initWithString:@"KILL"]			forKey:JBPrefsLabelText10];	
 	
+	[defaultValues setObject: [NSNumber numberWithBool:YES] forKey:JBPrefsIsFirstRun];
+	
 	// register defaults
 	[[NSUserDefaults standardUserDefaults] registerDefaults:defaultValues];
 }
@@ -63,7 +71,9 @@
 	NSLog(@"application finished launching");
 	
 	[self initUI];
-	[self initTraceController];
+	[self checkForFirstRun];
+	
+	//[self initPolicyFileController];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showError:) name:@"showError" object:nil ];
 }
@@ -71,10 +81,20 @@
 - (void) dealloc
 {
 	[super dealloc];
-	[traceController release];
+	//[traceController release];
+	[policyFileController release];
 	[preferenceController release];
 }
 
+- (void) checkForFirstRun
+{
+	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+	
+	if([defaults boolForKey:JBPrefsIsFirstRun] == YES)
+		[self showFirstRunDialog];
+	else
+		[self initTraceController];
+}
 
 - (IBAction) clear:(id) sender 
 {
@@ -84,15 +104,23 @@
 
 - (IBAction) pauseTrace:(id) sender
 {
+
 	if(![traceController paused])
 	{
 		[traceController setPaused:YES];
+		[pauseTraceToolbarItem setImage: [NSImage imageNamed:@"play.png"]];
 		[self setStatus: @"Paused"];
+		NSLog(@"image change pause");
+	}else{
+		[self resumeTrace: NULL];
 	}
 }
 
 - (IBAction) resumeTrace:(id) sender
 {
+
+	NSLog(@"image change resume");
+	[pauseTraceToolbarItem setImage: [NSImage imageNamed:@"pause.png"]];
 	if([traceController paused])
 	{
 		[traceController setPaused:NO];
@@ -119,13 +147,39 @@
 	[self saveAllwaysOnTop:[[NSUserDefaults standardUserDefaults] boolForKey:JBPrefsAlwaysOnTop]];
 }
 
+- (void) showFirstRunDialog
+{
+	[[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:NO] forKey:JBPrefsIsFirstRun];
+	
+	NSAlert *alert = [[[NSAlert alloc] init] autorelease];
+	[alert addButtonWithTitle:@"Preferences"];	
+	[alert addButtonWithTitle:@"Quit"];	
+	[alert setMessageText:@"Hi there!"];
+	[alert setInformativeText:@"It's the first time you run Trace It, and it won't be your last.\n\nBut to get started you NEED the Adobe Flash Debug Player and the flashlog.txt in place.\n\nHead over to the Adobe website to get the debug player and follow the instructions.\n\nOr if you are ready to go, set the location for the flashlog.txt in the Preferences."];
+	[alert setAlertStyle:NSWarningAlertStyle];
+	[alert beginSheetModalForWindow:mainWindow modalDelegate:self didEndSelector:@selector(firstRunDialogDidEnd:returnCode:contextInfo:) contextInfo:nil];
+}
+
+- (void)firstRunDialogDidEnd:(NSAlert *)alert returnCode:(int)returnCode contextInfo:(void *)contextInfo {
+    if (returnCode == NSAlertFirstButtonReturn)
+	{
+		[self showPreferencePanel:nil];
+	}
+	else if(returnCode == NSAlertSecondButtonReturn)
+	{
+		NSLog(@"QUIT");
+		exit(0);
+	}
+}
+
+
 - (void) showError:(NSNotification *) notification
 {
 	NSAlert *alert = [[[NSAlert alloc] init] autorelease];
-	[alert addButtonWithTitle:@"OK"];
-	[alert addButtonWithTitle:@"Cancel"];
-	[alert setMessageText:@"The log file could not be found?"];
-	[alert setInformativeText:@"Check if the location for the log file in the Preferences is ok."];
+	[alert addButtonWithTitle:@"Preferences"];
+	[alert addButtonWithTitle:@"Quit"];
+	[alert setMessageText:@"Woops!"];
+	[alert setInformativeText:@"Where is your flashlog file at? \nCheck the Preferences and make sure you have the Flash Debug player properly installed and configured."];
 	[alert setAlertStyle:NSWarningAlertStyle];
 	[alert beginSheetModalForWindow:mainWindow modalDelegate:self didEndSelector:@selector(alertDidEnd:returnCode:contextInfo:) contextInfo:nil];
 }
@@ -134,8 +188,12 @@
     if (returnCode == NSAlertFirstButtonReturn)
 	{
 		[self showPreferencePanel:nil];
-		NSLog(@"Modal ended");
     }
+	else if (returnCode == NSAlertSecondButtonReturn)
+	{
+		[[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:NO] forKey:JBPrefsIsFirstRun];
+		exit(0);
+	}
 }
 
 - (void) startTrace
@@ -186,6 +244,12 @@
 	}
 }
 
+- (void) initPolicyFileController
+{
+	policyFileController = [[PolicyFileController alloc] initWithTextView: txtOutput controller: self];
+	[policyFileController startTrace];
+}
+
 - (void) initUI
 {
 	// main window
@@ -225,7 +289,7 @@
 
 - (void) saveAllwaysOnTop:(BOOL) allwaysOnTop
 {
-	if(!allwaysOnTop)
+	if(allwaysOnTop)
 	{
 		[alwaysOnTop setState: NSOffState];
 		[mainWindow setLevel:NSNormalWindowLevel];
@@ -236,11 +300,12 @@
 		[mainWindow setLevel:NSFloatingWindowLevel];
 	}
 	
+	[preferenceController updateAllwaysOnTop:allwaysOnTop];
 	[[NSUserDefaults standardUserDefaults] setBool:allwaysOnTop forKey:JBPrefsAlwaysOnTop];
 }
 
 - (IBAction) alwaysOnTop:(id) sender
-{
+{	
 	[self saveAllwaysOnTop:([alwaysOnTop state] == NSOnState)];
 }
 

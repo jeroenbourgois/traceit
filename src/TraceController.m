@@ -55,7 +55,6 @@
 		NSArray* args = [NSArray arrayWithObjects:@"-f", [[NSUserDefaults standardUserDefaults] stringForKey:JBPrefsTraceFileLocation], nil];
 		[task setArguments:args];
 		
-		
 		[pipe release];
 		pipe = [[NSPipe alloc] init];
 		[task setStandardOutput:pipe];
@@ -109,15 +108,12 @@
 		NSMutableString *line;
 		for (line in lines)
 		{
-		
 			if([line isEqualToString:@""] || [line isEqualToString:@" "])
 			{
-			
 				NSLog(@"Trace added empty item");
 			} 
 			else
 			{
-				
 				LogItem *logItem = [[LogItem alloc] initWithLogline:line];
 				[loglines addObject:logItem];			
 				
@@ -134,13 +130,17 @@
 				NSAttributedString* attributedLine;
 				attributedLine = [[NSAttributedString alloc] initWithString:textviewLine attributes:attrsDictionary];
 				
-				if(!paused)
+				if(!paused && [self isClearLine: line])
+				{
+					[self clearTextview];
+				}
+				else if(!paused)
+				{
 					[self appendAttributedString:attributedLine];
-				
-				[self scrollTextViewToEnd:[line length]];
+					[self scrollTextViewToEnd:[line length]];
+				}
 				
 			}
-			
 		}
 
 		[self updateStatus];
@@ -149,6 +149,17 @@
 	// if the task is running, start reading again
 	if(task)
 		[[pipe fileHandleForReading] readInBackgroundAndNotify];
+}
+
+- (BOOL) isClearLine:(NSString *) line
+{
+	BOOL found = ([line rangeOfString:@"CLEAR"].location != NSNotFound);	
+	return found;
+}
+
+- (void) clearTextview
+{
+	[txt setString:@""];
 }
 
 - (NSColor *) getColorForLine:(NSString *) line

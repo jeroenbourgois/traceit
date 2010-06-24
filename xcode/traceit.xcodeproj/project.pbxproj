@@ -10,6 +10,8 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D00E88381185B24400850DE2 /* PolicyFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E88371185B24400850DE2 /* PolicyFileController.m */; };
+		D04114B711D32E9700BE8196 /* README in Resources */ = {isa = PBXBuildFile; fileRef = D04114B611D32E9700BE8196 /* README */; };
 		D04DC49C1107B4AB0007B360 /* menubar.png in Resources */ = {isa = PBXBuildFile; fileRef = D04DC49B1107B4AB0007B360 /* menubar.png */; };
 		D04DC4B01107B5EF0007B360 /* traceit.icns in Resources */ = {isa = PBXBuildFile; fileRef = D04DC4AF1107B5EF0007B360 /* traceit.icns */; };
 		D08E516610F0CED300F4B9FB /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08E516410F0CED300F4B9FB /* Preferences.xib */; };
@@ -36,6 +38,9 @@
 		32CA4F630368D1EE00C91783 /* traceit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = traceit_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Trace It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trace It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00E88361185B24400850DE2 /* PolicyFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolicyFileController.h; sourceTree = "<group>"; };
+		D00E88371185B24400850DE2 /* PolicyFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolicyFileController.m; sourceTree = "<group>"; };
+		D04114B611D32E9700BE8196 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = SOURCE_ROOT; };
 		D04DC49B1107B4AB0007B360 /* menubar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menubar.png; path = ../resources/menubar.png; sourceTree = SOURCE_ROOT; };
 		D04DC4AF1107B5EF0007B360 /* traceit.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = traceit.icns; path = ../resources/traceit.icns; sourceTree = SOURCE_ROOT; };
 		D08E516510F0CED300F4B9FB /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
@@ -83,6 +88,8 @@
 				D0E6886010F0CC6500C6F6FF /* LogItem.m */,
 				D0E6886110F0CC6500C6F6FF /* TraceController.h */,
 				D0E6886210F0CC6500C6F6FF /* TraceController.m */,
+				D00E88361185B24400850DE2 /* PolicyFileController.h */,
+				D00E88371185B24400850DE2 /* PolicyFileController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -137,6 +144,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D04114B611D32E9700BE8196 /* README */,
 				D04DC4961107B46D0007B360 /* images */,
 				D08E516410F0CED300F4B9FB /* Preferences.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -238,6 +246,7 @@
 				D0A8BFBA1112C04D00803E20 /* clear.png in Resources */,
 				D0A8BFBB1112C04D00803E20 /* pause.png in Resources */,
 				D0A8BFBC1112C04D00803E20 /* play.png in Resources */,
+				D04114B711D32E9700BE8196 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +264,7 @@
 				D08E516E10F0CF0E00F4B9FB /* AboutController.m in Sources */,
 				D08E516F10F0CF0E00F4B9FB /* PreferenceController.m in Sources */,
 				D0A8BFD21112C8F200803E20 /* UserDefaultsColorSupport.m in Sources */,
+				D00E88381185B24400850DE2 /* PolicyFileController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

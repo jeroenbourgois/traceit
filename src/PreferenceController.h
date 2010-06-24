@@ -12,10 +12,12 @@
 // preferences constants
 extern NSString * const JBPrefsAutoStartTrace;
 extern NSString * const JBPrefsTraceFileLocation;
+extern NSString * const JBPrefsPolicyFileLocation;
 extern NSString * const JBPrefsAlwaysOnTop;
 extern NSString * const JBPrefsShowInDock;
 extern NSString * const JBPrefsBackgroundColor;
 extern NSString * const JBPrefsTextColor;
+extern NSString * const JBPrefsIsFirstRun;
 
 extern NSString * const JBPrefsLabelColor1;
 extern NSString * const JBPrefsLabelColor2;
@@ -108,5 +110,6 @@ enum LabelType {
 - (NSString *) traceFileLocation;
 
 - (void) textDidChange:(NSNotification *) aNotification;
+- (void) updateAllwaysOnTop:(BOOL) allwaysOnTop;
 
 @end

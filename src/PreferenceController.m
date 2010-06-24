@@ -11,10 +11,12 @@
 
 NSString * const JBPrefsAutoStartTrace = @"AutoStartTrace";
 NSString * const JBPrefsTraceFileLocation = @"TraceFileLocation";
+NSString * const JBPrefsPolicyFileLocation = @"PolicyFileLocation";
 NSString * const JBPrefsAlwaysOnTop = @"AlwaysOnTop";
 NSString * const JBPrefsShowInDock = @"ShowInDock";
 NSString * const JBPrefsBackgroundColor = @"BackgroundColor";
 NSString * const JBPrefsTextColor = @"TextColor";
+NSString * const JBPrefsIsFirstRun = @"IsFirstRun";
 
 NSString * const JBPrefsLabelColor1 = @"labelColor1";
 NSString * const JBPrefsLabelColor2 = @"labelColor2";
@@ -94,7 +96,9 @@ NSString * const JBPrefsLabelText10 = @"labelText10";
 {	
 	[checkboxAutoStartTrace setState: [self autoStartTrace]];
 	[checkboxShowInDock setState: [self showInDock]];	
+	
 	[checkboxAllwaysOnTop setState: [self alwaysOnTop]];
+	
 	[traceFileLocation setStringValue: [self traceFileLocation]];
 	[backgroundColorWell setColor:[self backgroundColor]];
 	[textColorWell setColor:[self textColor]];
@@ -271,8 +275,6 @@ NSString * const JBPrefsLabelText10 = @"labelText10";
 		key = [[NSString alloc] initWithString: JBPrefsLabelColor10];
 	}
 	
-	NSLog(@"key: %@", key);
-	
 	[[NSUserDefaults standardUserDefaults] setObject:colorAsData forKey:key];
 	
 	[colorAsData release];
@@ -389,6 +391,13 @@ NSString * const JBPrefsLabelText10 = @"labelText10";
 	{
 		[self updateLabelTexts];
 	}	
+}
+
+- (void) updateAllwaysOnTop:(BOOL) allwaysOnTop
+{
+	NSLog(@"updateAllwaysOnTop: %d", allwaysOnTop);
+	[checkboxAllwaysOnTop setState:NSOnState];
+	[[NSUserDefaults standardUserDefaults] setBool:allwaysOnTop forKey:JBPrefsAlwaysOnTop];
 }
 
 @end
