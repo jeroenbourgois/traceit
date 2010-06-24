@@ -4,7 +4,7 @@ set -ex
 [ "$ACTION" = build ] || exit 0
 [ "$BUILD_VARIANTS" = "normal" ] || exit 0
 dir="$BUILD_DIR/$CONFIGURATION/"
-dmg="$EFFECTIVE_PLATFORM_NAME.dmg"
+dmg="$PROJECT_NAME.dmg"
 
 rm -rf "$dir"
 mkdir "$dir"
