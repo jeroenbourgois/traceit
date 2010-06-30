@@ -10,6 +10,7 @@
 #import "PreferenceController.h"
 #import "PolicyFileController.h"
 #import "TraceController.h"
+#import <Carbon/Carbon.h>
 
 @implementation AppController
 
@@ -70,12 +71,49 @@
 {
 	NSLog(@"application finished launching");
 	
+	NSString * version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+	NSString * buildNo = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBuildNumber"];
+	NSString * buildDate = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBuildDate"];
+	NSLog(@"Application Version: %@ Build No: %@ Build Date: %@",version,buildNo,buildDate);
+	
 	[self initUI];
 	[self checkForFirstRun];
+
 	
 	//[self initPolicyFileController];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showError:) name:@"showError" object:nil ];
+	
+
+}
+
+- (void)awakeFromNib
+{
+	NSLog(@"okokokok");
+	[self setDockStatus];	
+}
+
+
+- (void) setDockStatus {
+	// this should be called from the application delegate's applicationDidFinishLaunching
+	// method or from some controller object's awakeFromNib method
+	// Neat dockless hack using Carbon from <a href="http://codesorcery.net/2008/02/06/feature-requests-versus-the-right-way-to-do-it" title="http://codesorcery.net/2008/02/06/feature-requests-versus-the-right-way-to-do-it">http://codesorcery.net/2008/02/06/feature-requests-versus-the-right-way-...</a>
+	if ([[NSUserDefaults standardUserDefaults] boolForKey:@"JBPrefsShowInDock"])
+	{
+		NSLog(@"will show in dock and enable menu bar");
+		ProcessSerialNumber psn = { 0, kCurrentProcess };
+		// display dock icon
+		TransformProcessType(&psn, kProcessTransformToForegroundApplication);
+		// enable menu bar
+		SetSystemUIMode(kUIModeNormal, 0);
+		// switch to Dock.app
+		[[NSWorkspace sharedWorkspace] launchAppWithBundleIdentifier:@"com.apple.dock" options:NSWorkspaceLaunchDefault additionalEventParamDescriptor:nil launchIdentifier:nil];
+		// switch back
+		[[NSApplication sharedApplication] activateIgnoringOtherApps:TRUE];
+	} else 
+	{
+		NSLog(@"will not show in dock and enable menu bar");
+	}
 }
 
 - (void) dealloc
@@ -319,20 +357,34 @@
 {
 	NSFileManager *fm;
 	fm = [NSFileManager defaultManager];
+	BOOL isDir;
 	
 	NSString *homeDir = NSHomeDirectory();
 	NSMutableString *sharedObjectsLocation = [NSMutableString stringWithString:homeDir];
 	[sharedObjectsLocation appendString:@"/Library/Preferences/Macromedia/Flash Player/#SharedObjects/"];
 
 	
-	NSDirectoryEnumerator *de = [fm enumeratorAtPath:homeDir];
+	NSDirectoryEnumerator *de = [fm enumeratorAtPath:sharedObjectsLocation];
+	NSString *f;
+	NSString *fqn;
+	while ((f = [de nextObject]))
+	{
+		// make the filename |f| a fully qualifed filename
+		fqn = [sharedObjectsLocation stringByAppendingString:f];
+		if ([fm fileExistsAtPath:fqn isDirectory:&isDir] && isDir)
+		{
+			if ([fm removeItemAtPath: fqn error: NULL]  == YES)
+				NSLog (@"Remove successful");
+			else
+				NSLog (@"Remove failed");
+			
+			// append a / to the end of all directory entries
+			fqn = [fqn stringByAppendingString:@"/"];
+		}
+	}
 	
 	/*
-	if ([filemgr removeItemAtPath: @"" error: NULL]  == YES)
-        NSLog (@"Remove successful");
-	else
-        NSLog (@"Remove failed");
-	 */
+		 */
 }
 
 @end

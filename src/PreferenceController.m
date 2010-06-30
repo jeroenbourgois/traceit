@@ -18,6 +18,7 @@ NSString * const JBPrefsBackgroundColor = @"BackgroundColor";
 NSString * const JBPrefsTextColor = @"TextColor";
 NSString * const JBPrefsIsFirstRun = @"IsFirstRun";
 
+
 NSString * const JBPrefsLabelColor1 = @"labelColor1";
 NSString * const JBPrefsLabelColor2 = @"labelColor2";
 NSString * const JBPrefsLabelColor3 = @"labelColor3";

@@ -14,9 +14,29 @@
 		D04114B711D32E9700BE8196 /* README in Resources */ = {isa = PBXBuildFile; fileRef = D04114B611D32E9700BE8196 /* README */; };
 		D04DC49C1107B4AB0007B360 /* menubar.png in Resources */ = {isa = PBXBuildFile; fileRef = D04DC49B1107B4AB0007B360 /* menubar.png */; };
 		D04DC4B01107B5EF0007B360 /* traceit.icns in Resources */ = {isa = PBXBuildFile; fileRef = D04DC4AF1107B5EF0007B360 /* traceit.icns */; };
+		D05BC62211DA8261006F8A0C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05BC62111DA8261006F8A0C /* Carbon.framework */; };
 		D08E516610F0CED300F4B9FB /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08E516410F0CED300F4B9FB /* Preferences.xib */; };
 		D08E516E10F0CF0E00F4B9FB /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08E516B10F0CF0E00F4B9FB /* AboutController.m */; };
 		D08E516F10F0CF0E00F4B9FB /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08E516D10F0CF0E00F4B9FB /* PreferenceController.m */; };
+		D09F434D11D3E8D70082AD6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		D09F434E11D3E8D70082AD6A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		D09F434F11D3E8D70082AD6A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08E516410F0CED300F4B9FB /* Preferences.xib */; };
+		D09F435011D3E8D70082AD6A /* menubar.png in Resources */ = {isa = PBXBuildFile; fileRef = D04DC49B1107B4AB0007B360 /* menubar.png */; };
+		D09F435111D3E8D70082AD6A /* traceit.icns in Resources */ = {isa = PBXBuildFile; fileRef = D04DC4AF1107B5EF0007B360 /* traceit.icns */; };
+		D09F435211D3E8D70082AD6A /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB71112C04D00803E20 /* clear.png */; };
+		D09F435311D3E8D70082AD6A /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB81112C04D00803E20 /* pause.png */; };
+		D09F435411D3E8D70082AD6A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB91112C04D00803E20 /* play.png */; };
+		D09F435511D3E8D70082AD6A /* README in Resources */ = {isa = PBXBuildFile; fileRef = D04114B611D32E9700BE8196 /* README */; };
+		D09F435711D3E8D70082AD6A /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6885E10F0CC6500C6F6FF /* AppController.m */; };
+		D09F435811D3E8D70082AD6A /* LogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6886010F0CC6500C6F6FF /* LogItem.m */; };
+		D09F435911D3E8D70082AD6A /* TraceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6886210F0CC6500C6F6FF /* TraceController.m */; };
+		D09F435A11D3E8D70082AD6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6887F10F0CD2C00C6F6FF /* main.m */; };
+		D09F435B11D3E8D70082AD6A /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08E516B10F0CF0E00F4B9FB /* AboutController.m */; };
+		D09F435C11D3E8D70082AD6A /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08E516D10F0CF0E00F4B9FB /* PreferenceController.m */; };
+		D09F435D11D3E8D70082AD6A /* UserDefaultsColorSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8BFD11112C8F200803E20 /* UserDefaultsColorSupport.m */; };
+		D09F435E11D3E8D70082AD6A /* PolicyFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E88371185B24400850DE2 /* PolicyFileController.m */; };
+		D09F436011D3E8D70082AD6A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D09F436111D3E8D70082AD6A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DAE550110F9EDF0065B7BE /* QuartzCore.framework */; };
 		D0A8BFBA1112C04D00803E20 /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB71112C04D00803E20 /* clear.png */; };
 		D0A8BFBB1112C04D00803E20 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB81112C04D00803E20 /* pause.png */; };
 		D0A8BFBC1112C04D00803E20 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB91112C04D00803E20 /* play.png */; };
@@ -43,11 +63,13 @@
 		D04114B611D32E9700BE8196 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = SOURCE_ROOT; };
 		D04DC49B1107B4AB0007B360 /* menubar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menubar.png; path = ../resources/menubar.png; sourceTree = SOURCE_ROOT; };
 		D04DC4AF1107B5EF0007B360 /* traceit.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = traceit.icns; path = ../resources/traceit.icns; sourceTree = SOURCE_ROOT; };
+		D05BC62111DA8261006F8A0C /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		D08E516510F0CED300F4B9FB /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
 		D08E516A10F0CF0E00F4B9FB /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutController.h; path = ../src/AboutController.h; sourceTree = SOURCE_ROOT; };
 		D08E516B10F0CF0E00F4B9FB /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutController.m; path = ../src/AboutController.m; sourceTree = SOURCE_ROOT; };
 		D08E516C10F0CF0E00F4B9FB /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferenceController.h; path = ../src/PreferenceController.h; sourceTree = SOURCE_ROOT; };
 		D08E516D10F0CF0E00F4B9FB /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferenceController.m; path = ../src/PreferenceController.m; sourceTree = SOURCE_ROOT; };
+		D09F436711D3E8D70082AD6A /* Trace It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trace It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A8BFB71112C04D00803E20 /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clear.png; path = ../resources/clear.png; sourceTree = SOURCE_ROOT; };
 		D0A8BFB81112C04D00803E20 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../resources/pause.png; sourceTree = SOURCE_ROOT; };
 		D0A8BFB91112C04D00803E20 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../resources/play.png; sourceTree = SOURCE_ROOT; };
@@ -70,6 +92,16 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				D0DAE551110F9EDF0065B7BE /* QuartzCore.framework in Frameworks */,
+				D05BC62211DA8261006F8A0C /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09F435F11D3E8D70082AD6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09F436011D3E8D70082AD6A /* Cocoa.framework in Frameworks */,
+				D09F436111D3E8D70082AD6A /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +129,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D05BC62111DA8261006F8A0C /* Carbon.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -117,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* Trace It.app */,
+				D09F436711D3E8D70082AD6A /* Trace It.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,8 +239,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
-				D023432A11D379710057CEF8 /* Create dmg */,
-				D023432C11D379A10057CEF8 /* Git Commit */,
+				D08A159D11D663FB0035C22F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -216,6 +249,24 @@
 			productInstallPath = "$(HOME)/Applications";
 			productName = traceit;
 			productReference = 8D1107320486CEB800E47090 /* Trace It.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09F434B11D3E8D70082AD6A /* traceit nocommit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09F436411D3E8D70082AD6A /* Build configuration list for PBXNativeTarget "traceit nocommit" */;
+			buildPhases = (
+				D09F434C11D3E8D70082AD6A /* Resources */,
+				D09F435611D3E8D70082AD6A /* Sources */,
+				D09F435F11D3E8D70082AD6A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "traceit nocommit";
+			productInstallPath = "$(HOME)/Applications";
+			productName = traceit;
+			productReference = D09F436711D3E8D70082AD6A /* Trace It.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -231,6 +282,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* traceit */,
+				D09F434B11D3E8D70082AD6A /* traceit nocommit */,
 			);
 		};
 /* End PBXProject section */
@@ -252,36 +304,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D09F434C11D3E8D70082AD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09F434D11D3E8D70082AD6A /* InfoPlist.strings in Resources */,
+				D09F434E11D3E8D70082AD6A /* MainMenu.xib in Resources */,
+				D09F434F11D3E8D70082AD6A /* Preferences.xib in Resources */,
+				D09F435011D3E8D70082AD6A /* menubar.png in Resources */,
+				D09F435111D3E8D70082AD6A /* traceit.icns in Resources */,
+				D09F435211D3E8D70082AD6A /* clear.png in Resources */,
+				D09F435311D3E8D70082AD6A /* pause.png in Resources */,
+				D09F435411D3E8D70082AD6A /* play.png in Resources */,
+				D09F435511D3E8D70082AD6A /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D023432A11D379710057CEF8 /* Create dmg */ = {
+		D08A159D11D663FB0035C22F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Create dmg";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -ex\n\n[ \"$ACTION\" = build ] || exit 0\n[ \"$BUILD_VARIANTS\" = \"normal\" ] || exit 0\ndir=\"$TEMP_FILES_DIR/$CONFIGURATION/\"\ndmg=\"$PRODUCT_NAME.dmg\"\n\nrm -rf \"$dir\"\nmkdir \"$dir\"\ncp -R \"$BUILD_DIR/$CONFIGURATION/$PRODUCT_NAME.app\" \"$dir\"\nrm -f \"$dmg\"\nhdiutil create -srcfolder \"$BUILD_DIR/$CONFIGURATION\" -volname \"$PRODUCT_NAME\" \"$dmg\"\nhdiutil internet-enable -yes \"$dmg\"\nrm -rf \"$dir\"";
-		};
-		D023432C11D379A10057CEF8 /* Git Commit */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Git Commit";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd ~/Dropbox/Development/objectivec\\:cocoa/traceit/\ngit add .\ngit commit -m \"xcode update\"\ngit push origin";
+			shellScript = "#!/bin/bash\n# Auto Increment Version Script\nbuildPlist=\"Info.plist\"\nCFBuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBuildNumber\" $buildPlist)\nCFBuildNumber=$(($CFBuildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBuildNumber $CFBuildNumber\" $buildPlist\nCFBuildDate=$(date)\n/usr/libexec/PlistBuddy -c \"Set :CFBuildDate $CFBuildDate\" $buildPlist\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -298,6 +351,21 @@
 				D08E516F10F0CF0E00F4B9FB /* PreferenceController.m in Sources */,
 				D0A8BFD21112C8F200803E20 /* UserDefaultsColorSupport.m in Sources */,
 				D00E88381185B24400850DE2 /* PolicyFileController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09F435611D3E8D70082AD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09F435711D3E8D70082AD6A /* AppController.m in Sources */,
+				D09F435811D3E8D70082AD6A /* LogItem.m in Sources */,
+				D09F435911D3E8D70082AD6A /* TraceController.m in Sources */,
+				D09F435A11D3E8D70082AD6A /* main.m in Sources */,
+				D09F435B11D3E8D70082AD6A /* AboutController.m in Sources */,
+				D09F435C11D3E8D70082AD6A /* PreferenceController.m in Sources */,
+				D09F435D11D3E8D70082AD6A /* UserDefaultsColorSupport.m in Sources */,
+				D09F435E11D3E8D70082AD6A /* PolicyFileController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +444,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
-				SYMROOT = ../bin/;
+				SYMROOT = ../bin;
 			};
 			name = Debug;
 		};
@@ -388,9 +456,43 @@
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = ../bin;
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
-				SYMROOT = ../bin/;
+				SYMROOT = ../bin;
+			};
+			name = Release;
+		};
+		D09F436511D3E8D70082AD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = traceit_Prefix.pch;
+				INFOPLIST_FILE = "/Volumes/data/Users/jeroenb/Dropbox/Development/objectivec:cocoa/traceit/xcode/Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Trace It";
+			};
+			name = Debug;
+		};
+		D09F436611D3E8D70082AD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = traceit_Prefix.pch;
+				INFOPLIST_FILE = "/Volumes/data/Users/jeroenb/Dropbox/Development/objectivec:cocoa/traceit/xcode/Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Trace It";
 			};
 			name = Release;
 		};
@@ -411,6 +513,15 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09F436411D3E8D70082AD6A /* Build configuration list for PBXNativeTarget "traceit nocommit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09F436511D3E8D70082AD6A /* Debug */,
+				D09F436611D3E8D70082AD6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

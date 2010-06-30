@@ -1,8 +1,13 @@
 Trace It!
 
+v 1.3
+--------------
+[ADDED]	 - Functionality that hides the dock icon by default (not hooked to the Preferences window yet
+
 v 1.2
 --------------
 
+[ADDED]	 - 'Clear Shared Objects' action in the Trace It menu
 [ADDED]	 - Dialogbox upon first run
 [ADDED]  - experimental "CLEAR" condition to clear the screen (every trace containing CLEAR)
 [CHANGE] - toolbar update
