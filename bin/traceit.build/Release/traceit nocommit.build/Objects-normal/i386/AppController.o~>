@@ -1,0 +1,6 @@
+/Volumes/data/Users/jeroenb/Dropbox/Development/objectivec:cocoa/traceit/xcode/../src/AppController.m:11:33: error: PolicyFileController.h: No such file or directory
+/Volumes/data/Users/jeroenb/Dropbox/Development/objectivec:cocoa/traceit/xcode/../src/AppController.m: In function '-[AppController initPolicyFileController]':
+/Volumes/data/Users/jeroenb/Dropbox/Development/objectivec:cocoa/traceit/xcode/../src/AppController.m:286: warning: receiver 'PolicyFileController' is a forward class and corresponding @interface may not exist
+/Volumes/data/Users/jeroenb/Dropbox/Development/objectivec:cocoa/traceit/xcode/../src/AppController.m: At top level:
+/Volumes/data/Users/jeroenb/Dropbox/Development/objectivec:cocoa/traceit/xcode/../src/AppController.m:399: warning: incomplete implementation of class 'AppController'
+/Volumes/data/Users/jeroenb/Dropbox/Development/objectivec:cocoa/traceit/xcode/../src/AppController.m:399: warning: method definition for '-getFilterStatus' not found

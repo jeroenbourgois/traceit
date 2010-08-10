@@ -20,6 +20,7 @@
 	NSStatusItem* statusItem;
 	IBOutlet NSToolbarItem *pauseTraceToolbarItem;
 	IBOutlet NSToolbarItem *resumeTraceToolbarItem;
+	IBOutlet NSButton *btnFilterToggle;
 	IBOutlet NSMenuItem *pauseTraceMenuItem;
 	
 	TraceController* traceController;
@@ -32,6 +33,7 @@
 - (IBAction) pauseTrace:(id) sender;
 - (IBAction) resumeTrace:(id) sender;
 - (IBAction) toggleMainWindow:(id) sender;
+- (IBAction) toggleFilter:(id) sender;
 - (IBAction) alwaysOnTop:(id) sender;
 - (IBAction) deleteSharedObjects:(id) sender;
 

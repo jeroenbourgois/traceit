@@ -261,7 +261,6 @@
 
 	[txtOutput setSelectedTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[NSColor colorWithDeviceRed:0.0314 green:0.2235 blue:0.0196 alpha:1.0], NSBackgroundColorAttributeName, nil]];
 	[txtOutput setTextColor:[NSColor yellowColor]];
-
 	
 	[backgroundColorData release];
 	[textColorData release];
@@ -382,9 +381,19 @@
 			fqn = [fqn stringByAppendingString:@"/"];
 		}
 	}
-	
-	/*
-		 */
+}
+
+- (IBAction) toggleFilter:(id) sender
+{
+	NSLog(@"toggleFilter, %d", [btnFilterToggle state]);
+	if([btnFilterToggle state] == NSOnState)
+	{
+		[traceController filter:TRUE];
+	}
+	else
+	{
+		[traceController filter:FALSE];
+	}
 }
 
 @end

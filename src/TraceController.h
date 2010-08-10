@@ -16,6 +16,7 @@
 	NSPipe* pipe;
 	AppController* appController;
 	BOOL paused;
+	BOOL filtermode;
 }
 
 - (id) initWithTextView:(NSTextView*)textview controller:(AppController*) controller;
@@ -31,8 +32,11 @@
 - (BOOL) paused;
 
 - (BOOL) isClearLine:(NSString *) line;
+- (BOOL) isLineFiltered:(NSString *) line;
 - (void) clearTextview;
+- (void) filter:(BOOL) value;
 
 - (void) taskTerminated:(NSNotification *) note;
+
 
 @end

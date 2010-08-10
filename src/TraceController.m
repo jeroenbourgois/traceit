@@ -134,12 +134,11 @@
 				{
 					[self clearTextview];
 				}
-				else if(!paused)
+				else if((!paused && !filtermode) || (filtermode && ![self isLineFiltered: line]))
 				{
 					[self appendAttributedString:attributedLine];
 					[self scrollTextViewToEnd:[line length]];
 				}
-				
 			}
 		}
 
@@ -155,6 +154,11 @@
 {
 	BOOL found = ([line rangeOfString:@"CLEAR"].location != NSNotFound);	
 	return found;
+}
+
+- (BOOL) isLineFiltered:(NSString *) line
+{
+	return !([line rangeOfString:@"BUTTON_CLICK"].location != NSNotFound || [line rangeOfString:@"MESAGE"].location != NSNotFound || [line rangeOfString:@"PAGE_LOAD"].location != NSNotFound);
 }
 
 - (void) clearTextview
@@ -275,13 +279,15 @@
 	paused = value;
 	
 	if(paused)
-	{
 		[task suspend];
-	}
 	else 
-	{
 		[task resume];
-	}
+}
+
+- (void) filter:(BOOL) value
+{
+	filtermode = value;
+	[self clearTextview];
 }
 
 @end
