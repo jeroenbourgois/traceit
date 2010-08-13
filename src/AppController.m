@@ -318,10 +318,11 @@
 
 - (IBAction) toggleMainWindow:(id) sender
 {
+
 	if ([mainWindow isVisible]) 
 		[mainWindow orderOut:sender];
 	else
-		[mainWindow orderFront:sender];
+		[mainWindow orderFrontRegardless];
 }
 
 - (void) saveAllwaysOnTop:(BOOL) allwaysOnTop

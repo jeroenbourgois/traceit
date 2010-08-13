@@ -1,5 +1,9 @@
 Trace It!
 
+v 1.3.3	(2010/08/13)
+--------------
+[FIXED]	 - when clicking the status item, toggling works better (but still not perfect)
+
 v 1.3.2
 --------------
 [ADDED]	 - filter mode to see only (for now) the PAGE_LOAD, BUTTON_CLICK and MESSAGE lines
