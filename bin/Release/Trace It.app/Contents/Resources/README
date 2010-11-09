@@ -1,6 +1,15 @@
 Trace It!
 
-v 1.3.2	(2010/08/13)
+v 1.3.5 (2010/11/09)
+--------------
+[CHANGE] - changed look and feel of the main window (HUD)
+[CHANGE] - changed default HUD position
+
+v 1.3.4	(2010/08/14)
+--------------
+[CHANGE] - changed Preferences panel type from Utility to Normal (bigger close button)
+
+v 1.3.3	(2010/08/13)
 --------------
 [FIXED]	 - when clicking the status item, toggling works better (but still not perfect)
 
