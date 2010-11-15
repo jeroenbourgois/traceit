@@ -465,18 +465,21 @@
 								<string>1058C7A2FEA54F0111CA2CBB</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>D03058951291D79300E7B6AA</string>
+								<string>D03058911291D78600E7B6AA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>52</integer>
+									<integer>51</integer>
+									<integer>47</integer>
+									<integer>46</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {542, 722}}</string>
+							<string>{{0, 276}, {542, 722}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -547,6 +550,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>D030589D1291D79300E7B6AA</string>
+		<string>D030589E1291D79300E7B6AA</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>D06BE18B10E7E0130031F6F0</string>
 		<string>/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/traceit.xcodeproj</string>
 	</array>
@@ -748,13 +755,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>D030573C1291998100E7B6AA</string>
+				<string>D03058961291D79300E7B6AA</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>D030573D1291998100E7B6AA</string>
-				<string>D030573E1291998100E7B6AA</string>
-				<string>D030573F1291998100E7B6AA</string>
-				<string>D03057401291998100E7B6AA</string>
-				<string>D03057411291998100E7B6AA</string>
+				<string>D03058971291D79300E7B6AA</string>
+				<string>D03058981291D79300E7B6AA</string>
+				<string>D03058991291D79300E7B6AA</string>
+				<string>D030589A1291D79300E7B6AA</string>
+				<string>D030589B1291D79300E7B6AA</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -908,7 +915,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>D030575512919A5C00E7B6AA</string>
+				<string>D030589C1291D79300E7B6AA</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

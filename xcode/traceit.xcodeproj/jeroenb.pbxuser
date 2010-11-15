@@ -2,10 +2,10 @@
 {
 	089C165DFE840E0CC02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1652, 667}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1381, 746}}";
 			sepNavSelRange = "{45, 0}";
 			sepNavVisRange = "{0, 45}";
-			sepNavWindowFrame = "{{15, 60}, {1623, 1113}}";
+			sepNavWindowFrame = "{{0, 4}, {1440, 874}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
