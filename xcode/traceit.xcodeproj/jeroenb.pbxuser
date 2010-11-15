@@ -25,7 +25,6 @@
 		codeSenseManager = D06BE17C10E7DFF00031F6F0 /* Code sense */;
 		executables = (
 			D06BE16D10E7DFEC0031F6F0 /* traceit */,
-			D09F436811D3E8D70082AD6A /* traceit nocommit */,
 		);
 		expressions = (
 			newstring,
@@ -163,12 +162,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 310991071;
-			PBXWorkspaceStateSaveDate = 310991071;
+			PBXPerProjectTemplateStateSaveDate = 311547433;
+			PBXWorkspaceStateSaveDate = 311547433;
 		};
 		perUserProjectItems = {
-			D01D964F12896187008B090B /* PBXBookmark */ = D01D964F12896187008B090B /* PBXBookmark */;
-			D01D9656128971D0008B090B /* PBXTextBookmark */ = D01D9656128971D0008B090B /* PBXTextBookmark */;
+			D01D964F12896187008B090B = D01D964F12896187008B090B /* PBXBookmark */;
+			D01D9656128971D0008B090B = D01D9656128971D0008B090B /* PBXTextBookmark */;
 		};
 		sourceControlManager = D06BE17B10E7DFF00031F6F0 /* Source Control */;
 		userBuildSettings = {
@@ -386,44 +385,6 @@
 		modificationTime = 299100420.595144;
 		originalNumberOfMultipleMatches = 0;
 		state = 1;
-	};
-	D09F434B11D3E8D70082AD6A /* traceit nocommit */ = {
-		activeExec = 0;
-		executables = (
-			D09F436811D3E8D70082AD6A /* traceit nocommit */,
-		);
-	};
-	D09F436811D3E8D70082AD6A /* traceit nocommit */ = {
-		isa = PBXExecutable;
-		activeArgIndices = (
-		);
-		argumentStrings = (
-		);
-		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
-		configStateDict = {
-		};
-		customDataFormattersEnabled = 1;
-		dataTipCustomDataFormattersEnabled = 1;
-		dataTipShowTypeColumn = 1;
-		dataTipSortType = 0;
-		debuggerPlugin = GDBDebugging;
-		disassemblyDisplayState = 0;
-		dylibVariantSuffix = "";
-		enableDebugStr = 1;
-		environmentEntries = (
-		);
-		executableSystemSymbolLevel = 0;
-		executableUserSymbolLevel = 0;
-		libgmallocEnabled = 0;
-		name = "traceit nocommit";
-		savedGlobals = {
-		};
-		showTypeColumn = 0;
-		sourceDirectories = (
-		);
-		variableFormatDictionary = {
-		};
 	};
 	D0A8BFD01112C8F200803E20 /* UserDefaultsColorSupport.h */ = {
 		uiCtxt = {
