@@ -1,7 +1,7 @@
 Ttraceit
 v7
 r0
-t311549358.467597
+t311550170.922355
 cCheck dependencies
 cProcessInfoPlistFile "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Info.plist" Info.plist
 cCopyStringsFile "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
@@ -105,72 +105,72 @@ s928
 i<Cocoa/Cocoa.h>
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../README
-c000000004CE19E97000000000000045A
-t1289854615
-s1114
+c000000004CE1A8790000000000000492
+t1289857145
+s1170
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app
-t1289856558
+t1289857365
 s102
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app.dSYM
-t1289855865
+t1289857365
 s102
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Frameworks/Sparkle.framework
-t1289856540
+t1289857365
 s204
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Info.plist
-t1289856558
+t1289857364
 s1130
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It
-t1289855865
+t1289857365
 s130324
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/PkgInfo
-t1289856558
+t1289857364
 s8
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1289855864
+t1289857364
 s92
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/MainMenu.nib
-t1289855865
+t1289857365
 s22831
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/Preferences.nib
-t1289855865
+t1289857365
 s23198
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/README
-t1289855865
-s1114
+t1289857365
+s1170
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/clear.png
-t1289855865
+t1289857365
 s1630
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/dsa_pub.pem
-t1289855865
+t1289857365
 s1182
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/menubar.png
-t1289855865
+t1289857365
 s925
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/pause.png
-t1289855865
+t1289857365
 s1344
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/play.png
-t1289855865
+t1289857365
 s1431
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/traceit.icns
-t1289855865
+t1289857365
 s257590
 
 N/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/i386/AboutController.o
@@ -707,13 +707,13 @@ t1289855144
 s52785584
 
 NInfo.plist
-c000000004CE1A62E000000000000047B
-t1289856558
+c000000004CE1A953000000000000047B
+t1289857363
 s1147
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311549358#311549358#0(0"0(0#1#0"8599724192#0"0#
+lSLF07#2@18"Check dependencies311550170#311550170#0(0"0(0#1#0"8616956256#0"0#
 
 CCompileC ../bin/traceit.build/Release/traceit.build/Objects-normal/i386/AboutController.o /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../src/AboutController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s311547944.868852
@@ -1132,17 +1132,17 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../src/main.m308743526#308743526#0(0"0(0#0#92"/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../src/main.m8607189216#1977"    cd "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Trace It-generated-files.hmap" "-I/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Trace It-own-target-headers.hmap" "-I/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Trace It-all-target-headers.hmap" -iquote "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Trace It-project-headers.hmap" -F/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release -I/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/include -I/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/DerivedSources/ppc -I/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/DerivedSources -include /var/folders/ku/ku+iyl7HFpqMbHPu3UR8a2CU9jg/-Caches-/com.apple.Xcode.1134571259/SharedPrecompiledHeaders/traceit_Prefix-cguhynjcfwjftqamydfbxlccdzzd/traceit_Prefix.pch -c /Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../src/main.m -o /Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/ppc/main.o0#
 
 CCompileXIB /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/MainMenu.xib
-s311548664.255936
-e311548665.088697
+s311550164.716625
+e311550165.509780
 r1
 xCompileXIB
 x/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/MainMenu.xib
-o2010-11-15 22:17:45.008 ibtool[85740:607] NSPanel does not support NSUnifiedTitleAndToolbarWindowMask in a utility window
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib311548664#311548665#0(122"2010-11-15 22:17:45.008 ibtool[85740:607] NSPanel does not support NSUnifiedTitleAndToolbarWindowMask in a utility window0(0#0#93"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/MainMenu.xib8606396800#454"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/MainMenu.nib" /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+o2010-11-15 22:42:45.398 ibtool[87586:607] NSPanel does not support NSUnifiedTitleAndToolbarWindowMask in a utility window
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib311550164#311550165#0(122"2010-11-15 22:42:45.398 ibtool[87586:607] NSPanel does not support NSUnifiedTitleAndToolbarWindowMask in a utility window0(0#0#93"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/MainMenu.xib8614961664#454"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/MainMenu.nib" /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
 
 CCompileXIB /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib
-s311548664.604901
-e311548665.166360
+s311550164.822726
+e311550165.472530
 r1
 xCompileXIB
 x/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib
@@ -1152,7 +1152,7 @@ o/* com.apple.ibtool.document.warnings */
 o/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:105: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.
 o/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:28: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.
 o/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:93: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.
-lSLF07#2@40"CompileXIB English.lproj/Preferences.xib311548664#311548665#0(909"/* com.apple.ibtool.document.notices *//Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:101: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:105: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size./Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:28: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size./Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:93: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.4(13@34"This view is clipping its content.311548665#18446744073709551615#0#0(6@96"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib311547417#101#0#101#0#0"0(22@117"The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.311548665#18446744073709551615#0#0(6@96"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib311547417#105#0#105#0#0"0(22@117"The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.311548665#18446744073709551615#0#0(6@96"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib311547417#28#0#28#0#0"0(22@117"The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.311548665#18446744073709551615#0#0(6@96"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib311547417#93#0#93#0#0"0(0#0#96"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib8616542720#460"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/Preferences.nib" /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+lSLF07#2@40"CompileXIB English.lproj/Preferences.xib311550164#311550165#0(909"/* com.apple.ibtool.document.notices *//Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:101: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:105: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size./Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:28: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size./Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib:93: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.4(13@34"This view is clipping its content.311550165#18446744073709551615#0#0(6@96"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib311547417#101#0#101#0#0"0(22@117"The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.311550165#18446744073709551615#0#0(6@96"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib311547417#105#0#105#0#0"0(22@117"The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.311550165#18446744073709551615#0#0(6@96"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib311547417#28#0#28#0#0"0(22@117"The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.311550165#18446744073709551615#0#0(6@96"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib311547417#93#0#93#0#0"0(0#0#96"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib8622283936#460"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/Preferences.nib" /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/Preferences.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
 
 CCompileXIB /Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/English.lproj/MainMenu.xib
 s310993138.446522
@@ -1178,89 +1178,89 @@ o/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/
 lSLF07#2@40"CompileXIB English.lproj/Preferences.xib310993331#310993332#0(957"/* com.apple.ibtool.document.notices *//Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/English.lproj/Preferences.xib:101: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/English.lproj/Preferences.xib:105: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size./Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/English.lproj/Preferences.xib:93: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size./Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/English.lproj/Preferences.xib:28: warning: The image scaling property should not be used with checkboxes.  A checkbox should always appear at the standard size.0(0#0#108"/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/English.lproj/Preferences.xib8607231936#498"    cd "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/Preferences.nib" /Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/English.lproj/Preferences.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
 
 CCopyStringsFile "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
-s311548664.251319
-e311548664.604813
+s311550164.714650
+e311550164.822626
 r1
 xCopyStringsFile
 x/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/InfoPlist.strings
 xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings311548664#311548664#0(0"0(0#0#98"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/InfoPlist.strings8609396960#428"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj"0#
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings311550164#311550164#0(0"0(0#0#98"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/English.lproj/InfoPlist.strings8615205152#428"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj"0#
 
 CCopyStringsFile "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
 r0
 
 CCpResource "../bin/Release/Trace It.app/Contents/Resources/README" ../README
-s311548665.097307
-e311548665.105040
+s311550165.481265
+e311550165.491844
 r1
 xCpResource
 x../bin/Release/Trace It.app/Contents/Resources/README
 x../README
-lSLF07#2@14"Copy ../README311548665#311548665#0(0"0(0#0#76"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../README8614105504#436"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../README "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
+lSLF07#2@14"Copy ../README311550165#311550165#0(0"0(0#0#76"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../README8615464256#436"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../README "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
 
 CCpResource "../bin/Release/Trace It.app/Contents/Resources/clear.png" ../resources/clear.png
-s311548665.092139
-e311548665.101418
+s311550165.476091
+e311550165.493665
 r1
 xCpResource
 x../bin/Release/Trace It.app/Contents/Resources/clear.png
 x../resources/clear.png
-lSLF07#2@27"Copy ../resources/clear.png311548665#311548665#0(0"0(0#0#89"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/clear.png8616123872#449"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/clear.png "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
+lSLF07#2@27"Copy ../resources/clear.png311550165#311550165#0(0"0(0#0#89"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/clear.png8615802400#449"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/clear.png "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
 
 CCpResource "../bin/Release/Trace It.app/Contents/Resources/dsa_pub.pem" dsa_pub.pem
-s311548665.099083
-e311548665.115577
+s311550165.483064
+e311550165.496918
 r1
 xCpResource
 x../bin/Release/Trace It.app/Contents/Resources/dsa_pub.pem
 xdsa_pub.pem
-lSLF07#2@16"Copy dsa_pub.pem311548665#311548665#0(0"0(0#0#78"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/dsa_pub.pem8613804864#438"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/dsa_pub.pem "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
+lSLF07#2@16"Copy dsa_pub.pem311550165#311550165#0(0"0(0#0#78"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/dsa_pub.pem8615062688#438"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/dsa_pub.pem "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
 
 CCpResource "../bin/Release/Trace It.app/Contents/Resources/menubar.png" ../resources/menubar.png
-s311548665.088799
-e311548665.101294
+s311550165.472629
+e311550165.485411
 r1
 xCpResource
 x../bin/Release/Trace It.app/Contents/Resources/menubar.png
 x../resources/menubar.png
-lSLF07#2@29"Copy ../resources/menubar.png311548665#311548665#0(0"0(0#0#91"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/menubar.png8616285920#451"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/menubar.png "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
+lSLF07#2@29"Copy ../resources/menubar.png311550165#311550165#0(0"0(0#0#91"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/menubar.png8616334592#451"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/menubar.png "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
 
 CCpResource "../bin/Release/Trace It.app/Contents/Resources/pause.png" ../resources/pause.png
-s311548665.093850
-e311548665.111970
+s311550165.477795
+e311550165.489085
 r1
 xCpResource
 x../bin/Release/Trace It.app/Contents/Resources/pause.png
 x../resources/pause.png
-lSLF07#2@27"Copy ../resources/pause.png311548665#311548665#0(0"0(0#0#89"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/pause.png8616014144#449"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/pause.png "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
+lSLF07#2@27"Copy ../resources/pause.png311550165#311550165#0(0"0(0#0#89"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/pause.png8615669152#449"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/pause.png "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
 
 CCpResource "../bin/Release/Trace It.app/Contents/Resources/play.png" ../resources/play.png
-s311548665.095599
-e311548665.112933
+s311550165.479504
+e311550165.486775
 r1
 xCpResource
 x../bin/Release/Trace It.app/Contents/Resources/play.png
 x../resources/play.png
-lSLF07#2@26"Copy ../resources/play.png311548665#311548665#0(0"0(0#0#88"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/play.png8614383776#448"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/play.png "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
+lSLF07#2@26"Copy ../resources/play.png311550165#311550165#0(0"0(0#0#88"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/play.png8615480224#448"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/play.png "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
 
 CCpResource "../bin/Release/Trace It.app/Contents/Resources/traceit.icns" ../resources/traceit.icns
-s311548665.090493
-e311548665.117072
+s311550165.474420
+e311550165.485535
 r1
 xCpResource
 x../bin/Release/Trace It.app/Contents/Resources/traceit.icns
 x../resources/traceit.icns
-lSLF07#2@30"Copy ../resources/traceit.icns311548665#311548665#0(0"0(0#0#92"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/traceit.icns8616249376#452"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/traceit.icns "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
+lSLF07#2@30"Copy ../resources/traceit.icns311550165#311550165#0(0"0(0#0#92"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/traceit.icns8616123872#452"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../resources/traceit.icns "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Resources"0#
 
 CCreateUniversalBinary "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It" normal "i386 ppc"
-s311548665.168172
-e311548665.172295
+s311550165.511395
+e311550165.515111
 r1
 xCreateUniversalBinary
 x/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It
 xnormal
 xi386 ppc
-lSLF07#2@93"CreateUniversalBinary "../bin/Release/Trace It.app/Contents/MacOS/Trace It" normal "i386 ppc"311548665#311548665#0(0"0(0#0#75"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/i386 ppc8612288288#510"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /usr/bin/lipo -create "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/i386/Trace It" "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/ppc/Trace It" -output "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It"0#
+lSLF07#2@93"CreateUniversalBinary "../bin/Release/Trace It.app/Contents/MacOS/Trace It" normal "i386 ppc"311550165#311550165#0(0"0(0#0#75"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/i386 ppc8612416448#510"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /usr/bin/lipo -create "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/i386/Trace It" "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/ppc/Trace It" -output "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It"0#
 
 CCreateUniversalBinary "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It" normal "i386 ppc"
 s308743527.768582
@@ -1273,13 +1273,13 @@ xi386 ppc
 lSLF07#2@93"CreateUniversalBinary "../bin/Release/Trace It.app/Contents/MacOS/Trace It" normal "i386 ppc"308743527#308743527#0(0"0(0#0#87"/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/i386 ppc8602602080#560"    cd "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode"    /usr/bin/lipo -create "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/i386/Trace It" "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/ppc/Trace It" -output "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It"0#
 
 CGenerateDSYMFile "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app.dSYM" "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It"
-s311548665.172397
-e311548665.207029
+s311550165.515227
+e311550165.548854
 r1
 xGenerateDSYMFile
 x/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app.dSYM
 x/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It
-lSLF07#2@105"GenerateDSYMFile "../bin/Release/Trace It.app.dSYM" "../bin/Release/Trace It.app/Contents/MacOS/Trace It"311548665#311548665#0(0"0(0#0#118"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It8611716416#332"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/usr/bin/dsymutil "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It" -o "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app.dSYM"0#
+lSLF07#2@105"GenerateDSYMFile "../bin/Release/Trace It.app.dSYM" "../bin/Release/Trace It.app/Contents/MacOS/Trace It"311550165#311550165#0(0"0(0#0#118"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It8610676192#332"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/usr/bin/dsymutil "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It" -o "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app.dSYM"0#
 
 CGenerateDSYMFile "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/Trace It.app.dSYM" "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/Trace It.app/Contents/MacOS/Trace It"
 s308743527.887389
@@ -1331,13 +1331,13 @@ xppc
 lSLF07#2@154"Link /Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/ppc/Trace It308743527#308743527#0(0"0(0#0#0"8606505376#816"    cd "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release -F/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release -filelist "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/ppc/Trace It.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework QuartzCore -framework Carbon -o "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/ppc/Trace It"0#
 
 CPBXCp "../bin/Release/Trace It.app/Contents/Frameworks/Sparkle.framework" Sparkle.framework
-s311548665.207119
-e311548665.403286
+s311550165.548947
+e311550165.723742
 r1
 xPBXCp
 x../bin/Release/Trace It.app/Contents/Frameworks/Sparkle.framework
 xSparkle.framework
-lSLF07#2@22"Copy Sparkle.framework311548665#311548665#0(0"0(0#0#84"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Sparkle.framework8611375456#445"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Sparkle.framework "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Frameworks"0#
+lSLF07#2@22"Copy Sparkle.framework311550165#311550165#0(0"0(0#0#84"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Sparkle.framework8609687104#445"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Sparkle.framework "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Frameworks"0#
 
 CPhaseScriptExecution "Run Script" /Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Script-D08A159D11D663FB0035C22F.sh
 s308743528.207800
@@ -1350,13 +1350,13 @@ o/bin/sh: /Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/trace
 lSLF07#2@36"Run custom shell script 'Run Script'308743528#308743528#0(185"/bin/sh: /Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Script-D08A159D11D663FB0035C22F.sh: Permission denied1(4@184"/bin/sh: /Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Script-D08A159D11D663FB0035C22F.sh: Permission denied308743528#0#185#0(1@0"0(0#0#0"8606140768#17992"    cd "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode"    setenv ACTION build    setenv ALTERNATE_GROUP "BBDOBELGIUM\\domain users"    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER jeroenb    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "i386 ppc"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin"    setenv BUILD_ROOT "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin"    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release"    setenv CACHE_ROOT /var/folders/ku/ku+iyl7HFpqMbHPu3UR8a2CU9jg/-Caches-/com.apple.Xcode.1134571259    setenv CCHROOT /var/folders/ku/ku+iyl7HFpqMbHPu3UR8a2CU9jg/-Caches-/com.apple.Xcode.1134571259    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/Trace It.app"    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/ku/ku+iyl7HFpqMbHPu3UR8a2CU9jg/-Caches-/com.apple.Xcode.1134571259/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release"    setenv CONFIGURATION_TEMP_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release"    setenv CONTENTS_FOLDER_PATH "Trace It.app/Contents"    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH ppc    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/traceit.dst    setenv DWARF_DSYM_FILE_NAME "Trace It.app.dSYM"    setenv DWARF_DSYM_FOLDER_PATH "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release"    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH "Trace It.app/Contents/Executables"    setenv EXECUTABLE_FOLDER_PATH "Trace It.app/Contents/MacOS"    setenv EXECUTABLE_NAME "Trace It"    setenv EXECUTABLE_PATH "Trace It.app/Contents/MacOS/Trace It"    setenv FILE_LIST "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH "Trace It.app/Contents/Frameworks"    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME "Trace It.app"    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_ENABLE_OBJC_GC required    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G5    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER traceit_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 1457241606    setenv GROUP "BBDOBELGIUM\\domain users"    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH "Trace It.app/Contents/Info.plist"    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/traceit.dst/Users/jeroenb/Applications    setenv INSTALL_GROUP "BBDOBELGIUM\\domain users"    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER jeroenb    setenv INSTALL_PATH /Users/jeroenb/Applications    setenv INSTALL_ROOT /tmp/traceit.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH "Trace It.app/Contents/Resources/Java"    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Trace It-LinkMap-normal-ppc.txt"    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/i386/Trace It.LinkFileList"    setenv LINK_FILE_LIST_normal_ppc "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal/ppc/Trace It.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Objects-normal"    setenv OBJROOT "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin"    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH "Trace It.app/Contents/pbdevelopment.plist"    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/PkgInfo"    setenv PKGINFO_PATH "Trace It.app/Contents/PkgInfo"    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH "Trace It.app/Contents/PlugIns"    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH "Trace It.app/Contents/PrivateHeaders"    setenv PRODUCT_NAME "Trace It"    setenv PRODUCT_SETTINGS_PATH "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT traceit    setenv PROJECT_DERIVED_FILE_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/DerivedSources"    setenv PROJECT_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode"    setenv PROJECT_FILE_PATH "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/traceit.xcodeproj"    setenv PROJECT_NAME traceit    setenv PROJECT_TEMP_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build"    setenv PUBLIC_HEADERS_FOLDER_PATH "Trace It.app/Contents/Headers"    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "\"/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH "Trace It.app/Contents/Resources/Scripts"    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.5.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.5.sdk    setenv SDK_NAME macosx10.5    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/DerivedSources"    setenv SHARED_FRAMEWORKS_FOLDER_PATH "Trace It.app/Contents/SharedFrameworks"    setenv SHARED_PRECOMPS_DIR /var/folders/ku/ku+iyl7HFpqMbHPu3UR8a2CU9jg/-Caches-/com.apple.Xcode.1134571259/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH "Trace It.app/Contents/SharedSupport"    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode"    setenv SRCROOT "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode"    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/SymbolRepositories"    setenv SYMROOT "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin"    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME traceit    setenv TARGET_BUILD_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release"    setenv TARGET_NAME traceit    setenv TARGET_TEMP_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build"    setenv TEMP_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build"    setenv TEMP_FILES_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build"    setenv TEMP_FILE_DIR "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build"    setenv TEMP_ROOT "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin"    setenv UID 1134571259    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH "Trace It.app/Contents/Resources"    setenv UNSTRIPPED_PRODUCT NO    setenv USER jeroenb    setenv USER_APPS_DIR /Users/jeroenb/Applications    setenv USER_LIBRARY_DIR /Users/jeroenb/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH "Trace It.app/Contents/version.plist"    setenv VERSION_INFO_BUILDER jeroenb    setenv VERSION_INFO_FILE "Trace It_vers.c"    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Trace It  PROJECT:traceit-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME "Trace It.app"    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0323    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/traceit.build/Release/traceit.build/Script-D08A159D11D663FB0035C22F.sh"126#
 
 CProcessInfoPlistFile "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Info.plist" Info.plist
-s311549358.382971
-e311549358.461247
+s311550164.667072
+e311550164.714549
 r1
 xProcessInfoPlistFile
 x/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Info.plist
 xInfo.plist
-lSLF07#2@18"Process Info.plist311549358#311549358#0(0"0(0#0#77"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Info.plist8616046432#398"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    builtin-infoPlistUtility Info.plist -genpkginfo "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Info.plist"0#
+lSLF07#2@18"Process Info.plist311550164#311550164#0(0"0(0#0#77"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Info.plist8616014144#398"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    builtin-infoPlistUtility Info.plist -genpkginfo "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app/Contents/Info.plist"0#
 
 CProcessInfoPlistFile "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/Trace It.app/Contents/Info.plist" Info.plist
 s308743488.778777
@@ -1446,12 +1446,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@29"Precompile traceit_Prefix.pch311547939#311547944#0(0"0(0#0#85"/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/traceit_Prefix.pch8609328800#1775"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fobjc-gc-only -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/Trace It-generated-files.hmap" "-I/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/Trace It-own-target-headers.hmap" "-I/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/Trace It-all-target-headers.hmap" -iquote "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/Trace It-project-headers.hmap" -F/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release -F/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode -I/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/include -I/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/DerivedSources/i386 -I/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/traceit.build/Release/traceit.build/DerivedSources -c /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/traceit_Prefix.pch -o /var/folders/ku/ku+iyl7HFpqMbHPu3UR8a2CU9jg/-Caches-/com.apple.Xcode.1134571259/SharedPrecompiledHeaders/traceit_Prefix-fxkpbxrxmiohxkddjonafcnxtjvx/traceit_Prefix.pch.gch0#
 
 CTouch "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app"
-s311549358.464401
-e311549358.467552
+s311550165.723836
+e311550165.751083
 r1
 xTouch
 x/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app
-lSLF07#2@100"Touch /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app311549358#311549358#0(0"0(0#0#0"8614593408#193"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /usr/bin/touch -c "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app"0#
+lSLF07#2@100"Touch /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app311550165#311550165#0(0"0(0#0#0"8606589376#193"    cd /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode    /usr/bin/touch -c "/Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/../bin/Release/Trace It.app"0#
 
 CTouch "/Volumes/data/Users/jeroenb/Dropbox/development/objectivec:cocoa/traceit/xcode/../bin/Release/Trace It.app"
 s310993332.595923

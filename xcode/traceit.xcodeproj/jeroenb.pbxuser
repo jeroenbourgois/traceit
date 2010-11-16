@@ -166,8 +166,8 @@
 			PBXWorkspaceStateSaveDate = 311547433;
 		};
 		perUserProjectItems = {
-			D01D964F12896187008B090B = D01D964F12896187008B090B /* PBXBookmark */;
-			D01D9656128971D0008B090B = D01D9656128971D0008B090B /* PBXTextBookmark */;
+			D03058EF1291E1DB00E7B6AA /* PlistBookmark */ = D03058EF1291E1DB00E7B6AA /* PlistBookmark */;
+			D03058F01291E1DB00E7B6AA /* PlistBookmark */ = D03058F01291E1DB00E7B6AA /* PlistBookmark */;
 		};
 		sourceControlManager = D06BE17B10E7DFF00031F6F0 /* Source Control */;
 		userBuildSettings = {
@@ -193,7 +193,7 @@
 			sepNavSelRange = "{839, 11}";
 			sepNavVisRange = "{0, 1008}";
 			sepNavVisRect = "{{0, 0}, {1666, 667}}";
-			sepNavWindowFrame = "{{536, 87}, {1191, 918}}";
+			sepNavWindowFrame = "{{249, 4}, {1191, 874}}";
 		};
 	};
 	D00E88361185B24400850DE2 /* PolicyFileController.h */ = {
@@ -211,20 +211,6 @@
 			sepNavVisRange = "{2685, 2258}";
 			sepNavWindowFrame = "{{552, 65}, {1623, 1113}}";
 		};
-	};
-	D01D964F12896187008B090B /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = D04114B611D32E9700BE8196 /* README */;
-	};
-	D01D9656128971D0008B090B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D04114B611D32E9700BE8196 /* README */;
-		name = "README: 6";
-		rLen = 0;
-		rLoc = 144;
-		rType = 0;
-		vrLen = 1114;
-		vrLoc = 0;
 	};
 	D02F14B4111F34D40086A900 /* AppController.m:311 */ = {
 		isa = PBXFileBreakpoint;
@@ -244,11 +230,35 @@
 		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
+	D03058EF1291E1DB00E7B6AA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSUIElement,
+		);
+		name = /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D03058F01291E1DB00E7B6AA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSUIElement,
+		);
+		name = /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
 	D04114B611D32E9700BE8196 /* README */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {901, 746}}";
-			sepNavSelRange = "{144, 0}";
-			sepNavVisRange = "{0, 1114}";
+			sepNavSelRange = "{10, 0}";
+			sepNavVisRange = "{0, 1170}";
 			sepNavWindowFrame = "{{229, 4}, {960, 874}}";
 		};
 	};
