@@ -162,12 +162,19 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 311547433;
-			PBXWorkspaceStateSaveDate = 311547433;
+			PBXPerProjectTemplateStateSaveDate = 313517254;
+			PBXWorkspaceStateSaveDate = 313517254;
 		};
 		perUserProjectItems = {
-			D03058EF1291E1DB00E7B6AA /* PlistBookmark */ = D03058EF1291E1DB00E7B6AA /* PlistBookmark */;
-			D03058F01291E1DB00E7B6AA /* PlistBookmark */ = D03058F01291E1DB00E7B6AA /* PlistBookmark */;
+			D03058F01291E1DB00E7B6AA = D03058F01291E1DB00E7B6AA /* PlistBookmark */;
+			D0A19DDD12AFE4D100D0DAB0 /* PlistBookmark */ = D0A19DDD12AFE4D100D0DAB0 /* PlistBookmark */;
+			D0A19DEA12AFE74E00D0DAB0 /* PlistBookmark */ = D0A19DEA12AFE74E00D0DAB0 /* PlistBookmark */;
+			D0A19E2912AFE9DD00D0DAB0 /* PBXTextBookmark */ = D0A19E2912AFE9DD00D0DAB0 /* PBXTextBookmark */;
+			D0A19E2A12AFE9DD00D0DAB0 /* PBXTextBookmark */ = D0A19E2A12AFE9DD00D0DAB0 /* PBXTextBookmark */;
+			D0A19E2B12AFE9DD00D0DAB0 /* PBXTextBookmark */ = D0A19E2B12AFE9DD00D0DAB0 /* PBXTextBookmark */;
+			D0A19E2C12AFE9DD00D0DAB0 /* PlistBookmark */ = D0A19E2C12AFE9DD00D0DAB0 /* PlistBookmark */;
+			D0A19E6912AFEC3900D0DAB0 /* PBXTextBookmark */ = D0A19E6912AFEC3900D0DAB0 /* PBXTextBookmark */;
+			D0B7452E12AE995400E6D4EF = D0B7452E12AE995400E6D4EF /* PlistBookmark */;
 		};
 		sourceControlManager = D06BE17B10E7DFF00031F6F0 /* Source Control */;
 		userBuildSettings = {
@@ -193,7 +200,7 @@
 			sepNavSelRange = "{839, 11}";
 			sepNavVisRange = "{0, 1008}";
 			sepNavVisRect = "{{0, 0}, {1666, 667}}";
-			sepNavWindowFrame = "{{249, 4}, {1191, 874}}";
+			sepNavWindowFrame = "{{220, 4}, {1191, 874}}";
 		};
 	};
 	D00E88361185B24400850DE2 /* PolicyFileController.h */ = {
@@ -230,18 +237,6 @@
 		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
-	D03058EF1291E1DB00E7B6AA /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			LSUIElement,
-		);
-		name = /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Info.plist;
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
 	D03058F01291E1DB00E7B6AA /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
@@ -252,13 +247,13 @@
 		);
 		name = /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Info.plist;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	D04114B611D32E9700BE8196 /* README */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {901, 746}}";
-			sepNavSelRange = "{10, 0}";
-			sepNavVisRange = "{0, 1170}";
+			sepNavIntBoundsRect = "{{0, 0}, {901, 723}}";
+			sepNavSelRange = "{11, 130}";
+			sepNavVisRange = "{0, 1302}";
 			sepNavWindowFrame = "{{229, 4}, {960, 874}}";
 		};
 	};
@@ -396,6 +391,79 @@
 		originalNumberOfMultipleMatches = 0;
 		state = 1;
 	};
+	D0A19DDD12AFE4D100D0DAB0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSUIElement,
+		);
+		name = /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D0A19DEA12AFE74E00D0DAB0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleVersion,
+		);
+		name = /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D0A19E2912AFE9DD00D0DAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0E6885E10F0CC6500C6F6FF /* AppController.m */;
+		name = "AppController.m: 314";
+		rLen = 0;
+		rLoc = 12095;
+		rType = 0;
+		vrLen = 2889;
+		vrLoc = 3187;
+	};
+	D0A19E2A12AFE9DD00D0DAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0E6885D10F0CC6500C6F6FF /* AppController.h */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	D0A19E2B12AFE9DD00D0DAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0E6885D10F0CC6500C6F6FF /* AppController.h */;
+		name = "AppController.h: 15";
+		rLen = 10;
+		rLoc = 300;
+		rType = 0;
+		vrLen = 1566;
+		vrLoc = 0;
+	};
+	D0A19E2C12AFE9DD00D0DAB0 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleVersion,
+		);
+		name = /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D0A19E6912AFEC3900D0DAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D0E6885D10F0CC6500C6F6FF /* AppController.h */;
+		name = "AppController.h: 15";
+		rLen = 10;
+		rLoc = 300;
+		rType = 0;
+		vrLen = 1566;
+		vrLoc = 0;
+	};
 	D0A8BFD01112C8F200803E20 /* UserDefaultsColorSupport.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1564, 1041}}";
@@ -411,19 +479,31 @@
 			sepNavWindowFrame = "{{43, -81}, {1623, 1113}}";
 		};
 	};
+	D0B7452E12AE995400E6D4EF /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSUIElement,
+		);
+		name = /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/traceit/xcode/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
 	D0E6885D10F0CC6500C6F6FF /* AppController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1652, 992}}";
-			sepNavSelRange = "{1589, 0}";
-			sepNavVisRange = "{0, 1596}";
+			sepNavIntBoundsRect = "{{0, 0}, {901, 780}}";
+			sepNavSelRange = "{300, 10}";
+			sepNavVisRange = "{0, 1566}";
 			sepNavWindowFrame = "{{160, 73}, {1191, 918}}";
 		};
 	};
 	D0E6885E10F0CC6500C6F6FF /* AppController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2567, 5096}}";
+			sepNavIntBoundsRect = "{{0, 0}, {2567, 4966}}";
 			sepNavSelRange = "{12095, 0}";
-			sepNavVisRange = "{2842, 3234}";
+			sepNavVisRange = "{3187, 2889}";
 			sepNavWindowFrame = "{{311, 4}, {960, 874}}";
 		};
 	};

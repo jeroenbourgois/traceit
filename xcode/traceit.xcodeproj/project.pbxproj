@@ -21,6 +21,7 @@
 		D08E516610F0CED300F4B9FB /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08E516410F0CED300F4B9FB /* Preferences.xib */; };
 		D08E516E10F0CF0E00F4B9FB /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08E516B10F0CF0E00F4B9FB /* AboutController.m */; };
 		D08E516F10F0CF0E00F4B9FB /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08E516D10F0CF0E00F4B9FB /* PreferenceController.m */; };
+		D0A19E2012AFE9CF00D0DAB0 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A19E1F12AFE9CF00D0DAB0 /* BGHUDAppKit.framework */; };
 		D0A8BFBA1112C04D00803E20 /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB71112C04D00803E20 /* clear.png */; };
 		D0A8BFBB1112C04D00803E20 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB81112C04D00803E20 /* pause.png */; };
 		D0A8BFBC1112C04D00803E20 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A8BFB91112C04D00803E20 /* play.png */; };
@@ -68,6 +69,7 @@
 		D08E516B10F0CF0E00F4B9FB /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutController.m; path = ../src/AboutController.m; sourceTree = SOURCE_ROOT; };
 		D08E516C10F0CF0E00F4B9FB /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferenceController.h; path = ../src/PreferenceController.h; sourceTree = SOURCE_ROOT; };
 		D08E516D10F0CF0E00F4B9FB /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferenceController.m; path = ../src/PreferenceController.m; sourceTree = SOURCE_ROOT; };
+		D0A19E1F12AFE9CF00D0DAB0 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BGHUDAppKit.framework; path = /Volumes/data/Users/jeroenb/Dropbox/Development/ObjC/bghudappkit/build/Release/BGHUDAppKit.framework; sourceTree = "<absolute>"; };
 		D0A8BFB71112C04D00803E20 /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clear.png; path = ../resources/clear.png; sourceTree = SOURCE_ROOT; };
 		D0A8BFB81112C04D00803E20 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../resources/pause.png; sourceTree = SOURCE_ROOT; };
 		D0A8BFB91112C04D00803E20 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../resources/play.png; sourceTree = SOURCE_ROOT; };
@@ -92,6 +94,7 @@
 				D0DAE551110F9EDF0065B7BE /* QuartzCore.framework in Frameworks */,
 				D05BC62211DA8261006F8A0C /* Carbon.framework in Frameworks */,
 				D03058901291D76D00E7B6AA /* Sparkle.framework in Frameworks */,
+				D0A19E2012AFE9CF00D0DAB0 /* BGHUDAppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +132,7 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0A19E1F12AFE9CF00D0DAB0 /* BGHUDAppKit.framework */,
 				D0DAE550110F9EDF0065B7BE /* QuartzCore.framework */,
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
@@ -335,6 +339,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../bghudappkit/build/Release\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -356,6 +361,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../bghudappkit/build/Release\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
